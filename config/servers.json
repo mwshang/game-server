@@ -1,0 +1,45 @@
+{
+	"development": {
+		"connector": [
+			{"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3360, "frontend": true},
+            {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientPort": 3361, "frontend": true}
+		],
+		"chat": [
+			{"id":"chat-server-1","host":"127.0.0.1","port":3450}
+		],
+		"auth": [
+			{"id": "auth-server-1", "host": "127.0.0.1", "port": 3650}
+		],
+        "hall": [
+            {"id":"hall-server-1","host":"127.0.0.1","port":3850}
+        ],
+        "http": [
+            {"id": "http-server-1","host": "127.0.0.1","port": 4050}
+        ],
+        "wuhan": [
+            {"id":"wuhan-server-1","host":"127.0.0.1","port":3950},
+	        {"id":"wuhan-server-2","host":"127.0.0.1","port":3951}
+        ]
+  },
+
+	"production": {
+        "connector": [
+            {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 5010, "frontend": true}
+        ],
+        "chat": [
+            {"id":"chat-server-1","host":"127.0.0.1","port":3450}
+        ],
+        "auth": [
+            {"id": "auth-server-1", "host": "127.0.0.1", "port": 3650}
+        ],
+        "hall": [
+            {"id":"hall-server-1","host":"127.0.0.1","port":3850}
+        ],
+        "http": [
+            {"id": "http-server-1","host": "127.0.0.1","port": 4050}
+        ],
+        "quanzhou": [
+            {"id":"quanzhou-server-1","host":"127.0.0.1","port":3950}
+        ]
+  }
+}

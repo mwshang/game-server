@@ -1,0 +1,297 @@
+[2018-11-29 12:08:34.665] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138189","type":"1"}
+[2018-11-29 12:08:34.667] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138189    房卡变化:12
+[2018-11-29 12:08:34.667] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138189,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-11-29 12:10:32.109] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138187","type":"1"}
+[2018-11-29 12:10:32.110] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138187    房卡变化:12
+[2018-11-29 12:10:32.110] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138187,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-11-29 12:10:43.411] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138187","type":"1"}
+[2018-11-29 12:11:08.263] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138187","type":"1"}
+[2018-11-29 12:11:19.615] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138187","type":"1"}
+[2018-11-29 12:11:52.945] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138189","type":"1"}
+[2018-11-29 12:12:23.734] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138189","type":"1"}
+[2018-11-29 12:12:55.783] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138189","type":"1"}
+[2018-11-29 12:18:55.686] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138189","type":"1"}
+[2018-12-05 14:20:03.947] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-05 14:20:03.948] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1055    uid:100007    次数变化:1
+[2018-12-06 10:17:15.308] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-06 10:17:15.309] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1056    uid:100007    次数变化:1
+[2018-12-06 13:59:02.909] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138192    次数变化:1
+[2018-12-06 13:59:02.910] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138192    次数变化:1
+[2018-12-06 13:59:02.912] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138193    次数变化:1
+[2018-12-06 13:59:02.912] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138193    次数变化:1
+[2018-12-06 13:59:02.914] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138194    次数变化:1
+[2018-12-06 13:59:02.915] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138194    次数变化:1
+[2018-12-06 13:59:02.917] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138195    次数变化:1
+[2018-12-06 13:59:02.917] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138195    次数变化:1
+[2018-12-10 15:16:58.016] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-10 15:16:58.018] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138192    房卡变化:12
+[2018-12-10 15:16:58.019] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-12-11 11:25:36.552] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-11 11:25:36.554] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1057    uid:100007    次数变化:1
+[2018-12-11 16:49:35.999] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-11 16:49:36.000] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:29赠送的房卡:24    uid:138192    房卡变化:12
+[2018-12-11 16:49:36.000] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":17,"type":1}
+[2018-12-11 16:50:06.837] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-11 17:11:37.812] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-11 17:11:37.813] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1058    uid:100007    次数变化:1
+[2018-12-11 17:11:37.815] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:6
+[2018-12-11 17:11:37.815] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:4277    uid:100007    房卡变化:-4
+[2018-12-11 18:22:52.849] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-11 18:44:02.505] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1332
+[2018-12-11 18:44:02.506] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:3389    uid:100007    房卡变化:-888
+[2018-12-11 18:44:18.187] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:150
+[2018-12-11 18:44:18.188] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:3289    uid:100007    房卡变化:-100
+[2018-12-11 18:50:05.050] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-11 18:50:05.050] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1059    uid:100007    次数变化:1
+[2018-12-11 18:50:05.053] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:0
+[2018-12-11 18:50:05.054] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:3289    uid:100007    房卡变化:null
+[2018-12-11 18:55:23.870] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138192    次数变化:1
+[2018-12-11 18:55:23.871] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138192    次数变化:1
+[2018-12-11 18:55:23.872] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138193    次数变化:1
+[2018-12-11 18:55:23.873] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138193    次数变化:1
+[2018-12-11 18:55:23.875] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138198    次数变化:1
+[2018-12-11 18:55:23.875] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138198    次数变化:1
+[2018-12-11 18:55:23.878] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138203    次数变化:1
+[2018-12-11 18:55:23.878] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138203    次数变化:1
+[2018-12-11 18:55:23.880] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:8    uid:138192    次数变化:6
+[2018-12-11 18:55:23.880] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:25    uid:138192    房卡变化:-4
+[2018-12-11 18:56:47.789] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:133.5
+[2018-12-11 18:56:47.790] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:3200    uid:100007    房卡变化:-89
+[2018-12-12 10:52:20.523] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-12 10:52:20.524] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:37赠送的房卡:36    uid:138192    房卡变化:12
+[2018-12-12 10:52:20.524] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":25,"type":1}
+[2018-12-12 11:20:14.139] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-12 11:20:14.140] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138204    房卡变化:12
+[2018-12-12 11:20:14.141] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138204,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-12-12 11:20:19.726] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-12 11:39:25.347] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:9    uid:138192    次数变化:1
+[2018-12-12 11:39:25.348] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138192    次数变化:1
+[2018-12-12 11:39:25.351] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138198    次数变化:1
+[2018-12-12 11:39:25.352] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138198    次数变化:1
+[2018-12-12 11:39:25.354] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138199    次数变化:1
+[2018-12-12 11:39:25.354] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138199    次数变化:1
+[2018-12-12 11:39:25.356] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138204    次数变化:1
+[2018-12-12 11:39:25.356] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138204    次数变化:1
+[2018-12-12 11:39:25.358] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:7    uid:138204    次数变化:6
+[2018-12-12 11:39:25.359] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:13    uid:138204    房卡变化:-4
+[2018-12-12 14:20:11.701] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:3    uid:138193    次数变化:1
+[2018-12-12 14:20:11.703] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138193    次数变化:1
+[2018-12-12 14:20:11.710] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:3    uid:138198    次数变化:1
+[2018-12-12 14:20:11.711] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138198    次数变化:1
+[2018-12-12 14:20:11.713] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138199    次数变化:1
+[2018-12-12 14:20:11.714] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138199    次数变化:1
+[2018-12-12 14:20:11.717] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:8    uid:138204    次数变化:1
+[2018-12-12 14:20:11.718] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138204    次数变化:1
+[2018-12-12 14:25:02.962] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-12 15:48:47.376] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:10    uid:138192    次数变化:1
+[2018-12-12 15:48:47.377] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:4    uid:138192    次数变化:1
+[2018-12-12 15:48:47.378] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:4    uid:138193    次数变化:1
+[2018-12-12 15:48:47.379] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:4    uid:138193    次数变化:1
+[2018-12-12 15:48:47.380] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138205    次数变化:1
+[2018-12-12 15:48:47.381] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138205    次数变化:1
+[2018-12-12 15:48:47.383] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138206    次数变化:1
+[2018-12-12 15:48:47.384] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138206    次数变化:1
+[2018-12-12 16:12:36.027] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:11    uid:138192    次数变化:1
+[2018-12-12 16:12:36.028] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:5    uid:138192    次数变化:1
+[2018-12-12 16:12:36.029] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:5    uid:138193    次数变化:1
+[2018-12-12 16:12:36.030] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:5    uid:138193    次数变化:1
+[2018-12-12 16:12:36.031] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:9    uid:138204    次数变化:1
+[2018-12-12 16:12:36.032] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138204    次数变化:1
+[2018-12-12 16:12:36.034] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138207    次数变化:1
+[2018-12-12 16:12:36.034] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138207    次数变化:1
+[2018-12-12 16:41:02.978] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-12 16:41:02.979] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1060    uid:100007    次数变化:1
+[2018-12-12 16:57:13.892] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:12    uid:138192    次数变化:1
+[2018-12-12 16:57:13.894] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:6    uid:138192    次数变化:1
+[2018-12-12 16:57:13.897] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:6    uid:138193    次数变化:1
+[2018-12-12 16:57:13.898] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:6    uid:138193    次数变化:1
+[2018-12-12 16:57:13.901] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:10    uid:138204    次数变化:1
+[2018-12-12 16:57:13.902] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:4    uid:138204    次数变化:1
+[2018-12-12 16:57:13.908] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138207    次数变化:1
+[2018-12-12 16:57:13.909] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138207    次数变化:1
+[2018-12-13 10:49:45.030] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:13    uid:138192    次数变化:1
+[2018-12-13 10:49:45.032] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:7    uid:138192    次数变化:1
+[2018-12-13 10:49:45.034] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:7    uid:138193    次数变化:1
+[2018-12-13 10:49:45.035] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:7    uid:138193    次数变化:1
+[2018-12-13 10:49:45.036] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:11    uid:138204    次数变化:1
+[2018-12-13 10:49:45.037] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:5    uid:138204    次数变化:1
+[2018-12-13 10:49:45.040] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:3    uid:138207    次数变化:1
+[2018-12-13 10:49:45.040] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138207    次数变化:1
+[2018-12-13 11:09:39.358] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:14    uid:138192    次数变化:1
+[2018-12-13 11:09:39.359] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:8    uid:138192    次数变化:1
+[2018-12-13 11:09:39.362] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:8    uid:138193    次数变化:1
+[2018-12-13 11:09:39.363] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:8    uid:138193    次数变化:1
+[2018-12-13 11:09:39.370] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:12    uid:138204    次数变化:1
+[2018-12-13 11:09:39.374] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:6    uid:138204    次数变化:1
+[2018-12-13 11:09:39.377] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:4    uid:138207    次数变化:1
+[2018-12-13 11:09:39.378] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:4    uid:138207    次数变化:1
+[2018-12-13 11:09:39.381] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:18    uid:138204    次数变化:6
+[2018-12-13 11:09:39.382] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:9    uid:138204    房卡变化:-4
+[2018-12-13 11:17:15.208] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:15    uid:138192    次数变化:1
+[2018-12-13 11:17:15.208] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:9    uid:138192    次数变化:1
+[2018-12-13 11:17:15.211] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:9    uid:138193    次数变化:1
+[2018-12-13 11:17:15.211] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:9    uid:138193    次数变化:1
+[2018-12-13 11:17:15.213] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:19    uid:138204    次数变化:1
+[2018-12-13 11:17:15.213] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:7    uid:138204    次数变化:1
+[2018-12-13 11:17:15.215] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:5    uid:138207    次数变化:1
+[2018-12-13 11:17:15.216] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:5    uid:138207    次数变化:1
+[2018-12-13 11:17:15.218] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:25    uid:138204    次数变化:6
+[2018-12-13 11:17:15.219] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:5    uid:138204    房卡变化:-4
+[2018-12-13 11:46:40.160] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-13 11:46:40.162] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1061    uid:100007    次数变化:1
+[2018-12-13 11:46:40.163] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:6
+[2018-12-13 11:46:40.164] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:3196    uid:100007    房卡变化:-4
+[2018-12-13 12:01:59.008] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100007    次数变化:1
+[2018-12-13 12:01:59.009] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1062    uid:100007    次数变化:1
+[2018-12-13 12:01:59.011] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:16    uid:138192    次数变化:1
+[2018-12-13 12:01:59.013] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:10    uid:138192    次数变化:1
+[2018-12-13 12:01:59.015] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:26    uid:138204    次数变化:1
+[2018-12-13 12:01:59.015] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:8    uid:138204    次数变化:1
+[2018-12-13 12:01:59.017] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:6    uid:138207    次数变化:1
+[2018-12-13 12:01:59.018] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:6    uid:138207    次数变化:1
+[2018-12-13 12:01:59.020] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:22    uid:138192    次数变化:6
+[2018-12-13 12:01:59.021] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:33    uid:138192    房卡变化:-4
+[2018-12-13 12:12:14.080] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:23    uid:138192    次数变化:1
+[2018-12-13 12:12:14.081] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:11    uid:138192    次数变化:1
+[2018-12-13 12:12:14.083] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:10    uid:138193    次数变化:1
+[2018-12-13 12:12:14.083] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:10    uid:138193    次数变化:1
+[2018-12-13 12:12:14.085] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:27    uid:138204    次数变化:1
+[2018-12-13 12:12:14.086] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:9    uid:138204    次数变化:1
+[2018-12-13 12:12:14.088] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:7    uid:138207    次数变化:1
+[2018-12-13 12:12:14.088] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:7    uid:138207    次数变化:1
+[2018-12-13 12:12:14.090] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:23    uid:138192    次数变化:0
+[2018-12-13 12:12:14.090] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:33    uid:138192    房卡变化:null
+[2018-12-13 12:12:14.092] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:10    uid:138193    次数变化:0
+[2018-12-13 12:12:14.092] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:5    uid:138193    房卡变化:null
+[2018-12-13 12:12:14.094] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:27    uid:138204    次数变化:0
+[2018-12-13 12:12:14.094] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:5    uid:138204    房卡变化:null
+[2018-12-13 12:12:14.098] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:7    uid:138207    次数变化:0
+[2018-12-13 12:12:14.099] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:5    uid:138207    房卡变化:null
+[2018-12-13 14:35:22.182] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-13 14:36:10.994] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-13 14:36:29.370] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-13 14:39:18.758] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138207","type":"1"}
+[2018-12-13 14:39:18.759] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138207    房卡变化:12
+[2018-12-13 14:39:18.760] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138207,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-12-13 14:39:26.880] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-14 10:54:21.228] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138207","type":"1"}
+[2018-12-14 10:54:21.229] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:29赠送的房卡:24    uid:138207    房卡变化:12
+[2018-12-14 10:54:21.230] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138207,"rewardGem":12,"beforeGem":17,"type":1}
+[2018-12-14 12:14:46.209] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138208","type":"1"}
+[2018-12-14 12:14:46.211] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:12    uid:138208    房卡变化:12
+[2018-12-14 12:14:46.211] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138208,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-12-14 12:28:46.790] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:24    uid:138192    次数变化:1
+[2018-12-14 12:28:46.791] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:12    uid:138192    次数变化:1
+[2018-12-14 12:28:46.793] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:11    uid:138193    次数变化:1
+[2018-12-14 12:28:46.794] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:11    uid:138193    次数变化:1
+[2018-12-14 12:28:46.795] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:28    uid:138204    次数变化:1
+[2018-12-14 12:28:46.795] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:10    uid:138204    次数变化:1
+[2018-12-14 12:28:46.798] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:1    uid:138208    次数变化:1
+[2018-12-14 12:28:46.798] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1    uid:138208    次数变化:1
+[2018-12-14 12:28:46.800] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:30    uid:138192    次数变化:6
+[2018-12-14 12:28:46.801] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:29    uid:138192    房卡变化:-4
+[2018-12-14 14:25:30.289] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138204","type":"1"}
+[2018-12-14 14:25:30.290] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:17赠送的房卡:24    uid:138204    房卡变化:12
+[2018-12-14 14:25:30.290] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138204,"rewardGem":12,"beforeGem":5,"type":1}
+[2018-12-14 14:33:48.787] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:31    uid:138192    次数变化:1
+[2018-12-14 14:33:48.788] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:13    uid:138192    次数变化:1
+[2018-12-14 14:33:48.793] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:12    uid:138193    次数变化:1
+[2018-12-14 14:33:48.795] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:12    uid:138193    次数变化:1
+[2018-12-14 14:33:48.797] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:29    uid:138204    次数变化:1
+[2018-12-14 14:33:48.798] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:11    uid:138204    次数变化:1
+[2018-12-14 14:33:48.800] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:2    uid:138208    次数变化:1
+[2018-12-14 14:33:48.801] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:2    uid:138208    次数变化:1
+[2018-12-14 14:33:48.803] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:8    uid:138208    次数变化:6
+[2018-12-14 14:33:48.804] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:13    uid:138208    房卡变化:-4
+[2018-12-14 15:17:50.913] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-14 15:17:50.914] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:41赠送的房卡:48    uid:138192    房卡变化:12
+[2018-12-14 15:17:50.915] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":29,"type":1}
+[2018-12-15 09:23:20.365] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-15 09:23:20.367] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:53赠送的房卡:60    uid:138192    房卡变化:12
+[2018-12-15 09:23:20.367] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":41,"type":1}
+[2018-12-16 14:18:00.718] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100004    次数变化:1
+[2018-12-16 14:18:00.720] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1225    uid:100004    次数变化:1
+[2018-12-16 14:18:00.724] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100004    次数变化:0
+[2018-12-16 14:18:00.725] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:6120    uid:100004    房卡变化:null
+[2018-12-16 18:00:35.350] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100004    次数变化:1
+[2018-12-16 18:00:35.352] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:1226    uid:100004    次数变化:1
+[2018-12-16 18:00:35.356] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:200    uid:100004    次数变化:0
+[2018-12-16 18:00:35.357] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:6120    uid:100004    房卡变化:null
+[2018-12-17 15:20:30.403] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138192","type":"1"}
+[2018-12-17 15:20:30.404] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:65赠送的房卡:72    uid:138192    房卡变化:12
+[2018-12-17 15:20:30.404] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138192,"rewardGem":12,"beforeGem":53,"type":1}
+[2018-12-17 17:04:16.407] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:32    uid:138192    次数变化:1
+[2018-12-17 17:04:16.408] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:14    uid:138192    次数变化:1
+[2018-12-17 17:04:16.411] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:13    uid:138193    次数变化:1
+[2018-12-17 17:04:16.411] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:13    uid:138193    次数变化:1
+[2018-12-17 17:04:16.414] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:30    uid:138204    次数变化:1
+[2018-12-17 17:04:16.414] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:12    uid:138204    次数变化:1
+[2018-12-17 17:04:16.416] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:9    uid:138208    次数变化:1
+[2018-12-17 17:04:16.417] [DEBUG] charge-log - [36m157: [/root/game-server/app/domain/entity/player.js] [39m玩家更新次数:3    uid:138208    次数变化:1
+[2018-12-17 17:04:16.418] [DEBUG] charge-log - [36m163: [/root/game-server/app/domain/entity/player.js] [39m玩家更新积分:15    uid:138208    次数变化:6
+[2018-12-17 17:04:16.419] [DEBUG] charge-log - [36m149: [/root/game-server/app/domain/entity/player.js] [39m玩家更新房卡:9    uid:138208    房卡变化:-4
+[2018-12-17 17:39:43.931] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138208","type":"1"}
+[2018-12-17 17:39:43.933] [DEBUG] charge-log - [36m178: [/root/game-server/app/domain/entity/player.js] [39m更新房卡:21赠送的房卡:24    uid:138208    房卡变化:12
+[2018-12-17 17:39:43.933] [DEBUG] charge-log - [36m181: [/root/game-server/app/domain/entity/player.js] [39mQPPlayer_rewardGemInfo {"uid":138208,"rewardGem":12,"beforeGem":9,"type":1}
+[2018-12-17 17:39:58.793] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138208","type":"1"}
+[2018-12-17 17:40:09.319] [DEBUG] charge-log - [36m81: [/root/game-server/app/servers/hall/remote/fangkaRemote.js] [39mactiveFangkaRPC:{"uid":"138208","type":"1"}
+[2018-12-20 14:44:21.424] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 14:44:21.425] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:846    uid:100005    次数变化:1
+[2018-12-20 14:44:21.428] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 14:44:21.429] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8887    uid:100005    房卡变化:-6
+[2018-12-20 14:53:10.515] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 14:53:10.517] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:847    uid:100005    次数变化:1
+[2018-12-20 14:53:10.519] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 14:53:10.519] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8881    uid:100005    房卡变化:-6
+[2018-12-20 15:01:37.646] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 15:01:37.648] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:848    uid:100005    次数变化:1
+[2018-12-20 15:01:37.650] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 15:01:37.651] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8875    uid:100005    房卡变化:-6
+[2018-12-20 15:37:22.066] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 15:37:22.068] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:849    uid:100005    次数变化:1
+[2018-12-20 15:37:22.070] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 15:37:22.071] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8869    uid:100005    房卡变化:-6
+[2018-12-20 15:50:43.577] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 15:50:43.578] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:850    uid:100005    次数变化:1
+[2018-12-20 15:50:43.582] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 15:50:43.582] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8863    uid:100005    房卡变化:-6
+[2018-12-20 16:03:14.208] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 16:03:14.209] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:851    uid:100005    次数变化:1
+[2018-12-20 16:03:14.213] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 16:03:14.214] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8857    uid:100005    房卡变化:-6
+[2018-12-20 16:33:20.404] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 16:33:20.406] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:852    uid:100005    次数变化:1
+[2018-12-20 16:33:20.408] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 16:33:20.409] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8851    uid:100005    房卡变化:-6
+[2018-12-20 16:54:19.774] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 16:54:19.776] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:853    uid:100005    次数变化:1
+[2018-12-20 16:54:19.778] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 16:54:19.779] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8845    uid:100005    房卡变化:-6
+[2018-12-20 17:14:24.992] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 17:14:24.993] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:854    uid:100005    次数变化:1
+[2018-12-20 17:14:24.996] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 17:14:24.996] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8839    uid:100005    房卡变化:-6
+[2018-12-20 17:27:14.868] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 17:27:14.869] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:855    uid:100005    次数变化:1
+[2018-12-20 17:27:14.871] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 17:27:14.875] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8833    uid:100005    房卡变化:-6
+[2018-12-20 17:33:57.202] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 17:33:57.203] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:856    uid:100005    次数变化:1
+[2018-12-20 17:33:57.206] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 17:33:57.206] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8827    uid:100005    房卡变化:-6
+[2018-12-20 17:42:50.383] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 17:42:50.384] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:857    uid:100005    次数变化:1
+[2018-12-20 17:42:50.387] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 17:42:50.387] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8821    uid:100005    房卡变化:-6
+[2018-12-20 18:52:54.168] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-20 18:52:54.171] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:858    uid:100005    次数变化:1
+[2018-12-20 18:52:54.175] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-20 18:52:54.176] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8815    uid:100005    房卡变化:-6
+[2018-12-21 12:03:51.840] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-21 12:03:51.877] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:859    uid:100005    次数变化:1
+[2018-12-21 12:03:51.879] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-21 12:03:51.879] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8809    uid:100005    房卡变化:-6
+[2018-12-21 13:04:55.864] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:1
+[2018-12-21 13:04:55.866] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新次数:860    uid:100005    次数变化:1
+[2018-12-21 13:04:55.869] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新积分:200    uid:100005    次数变化:9
+[2018-12-21 13:04:55.870] [DEBUG] charge-log - [36m\luxuan\server\game-server-git\game-server\app\domain\entity\player.js: [E:\luxuan\server\game-server-git\game-server\app\domain\entity\player.js] [39m玩家更新房卡:8803    uid:100005    房卡变化:-6

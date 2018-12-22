@@ -1,0 +1,11 @@
+[
+["id","名称","描述","类型","人民币","金币","图片id","打折","vip天数","钻石","积分","剩余数量"],
+["id","name","desc","type","rmb","coin","imgId","sale","vipCount","gem","score","count"],
+["1","喇叭","喇叭" ,3,   0,   100, "icon_speaker.png", 1,0,0,0,99999],
+["2","小米充电宝20000mAh","小米充电宝20000mAh" ,4,   0,   5000, "icon_xiaomichongdianqi.png", 1,0,0,33333,20],
+["3","小米PAD2 16G","小米PAD2 16G" ,4,   0,   50000, "icon_xiaomiipad.png", 1,0,0,66666,20],
+["4","IPad MiNi3 16G","IPad MiNi3 16G" ,4,   0,   80000, "icon_mini.png", 1,0,0,88888,20],
+["5","华为P9","华为P9" ,4,   0,   100000, "icon_huawei.png", 1,0,0,99999,20],
+["6","三星S7","三星S7手机" ,4,   0,   110000, "icon_sumsung.png", 1,0,0,99999,20],
+["7","IPHONE6S 16G","IPHONE6S 16G" ,4,   150000,   1000, "icon_iphone.png", 1,0,0,99999,20]
+]

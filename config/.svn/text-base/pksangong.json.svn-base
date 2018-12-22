@@ -1,0 +1,24 @@
+  {
+  	"sangong-server-1":
+    [
+        {"id": "novice", "name": "新手村", "baseBet":100,"condition":200,"ticket":0,"tables": 100, "startIndex":0  },
+        {"id": "medium", "name": "中级场", "baseBet":500,"condition":1000,"ticket":0,"tables": 100, "startIndex":100 },
+        {"id": "advanced", "name": "高级场", "baseBet":1000,"condition":2000,"ticket":0,"tables": 100, "startIndex":200 },
+        {"id": "fresh", "name": "新手试玩场", "baseBet":10,"condition":0,"ticket":0,"tables": 100, "startIndex":300 },
+        {"id": "private", "name": "私人房间", "baseBet":10,"condition":100,"ticket":0,"tables": 1, "startIndex":65535 }
+    ],
+    "sangong_time_config":
+    {
+        "addRobotTime" : 4,
+        "readyTime" : 5,
+        "sendCardTime": 5,
+        "bankerTime": 8,
+        "openCardTime": 6,
+        "resultTime": 0,
+        "resetTime":7,
+        "chipinTime": 30
+    },
+    "minPlayerNumbers": 2,
+    "maxPlayerNumbers": 9,
+    "privateTableNumber": 65535
+  }

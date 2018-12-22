@@ -1,0 +1,35 @@
+  {
+    "newVersion": "1.0",
+    "isDownGame": 0,
+    "downloadUrlAndroid": "http://a.app.qq.com/o/simple.jsp?pkgname=win.yiqigame.majiang.quangang",
+    "downloadUrlIOS": "https://itunes.apple.com/us/app/xian-yu-quan-gang-ma-jiang/id1186760144?l=zh&ls=1&mt=8",
+
+  	"games":
+    [
+
+      {
+        "serverType": "paodekuai",
+        "configFile": "./pkpaodekuai.json",
+        "newVersion": "1.0",
+        "isDownGame": 0,
+        "downloadUrlAndroid": "http://a.app.qq.com/o/simple.jsp?pkgname=win.yiqigame.majiang.quangang",
+        "downloadUrlIOS": "https://itunes.apple.com/us/app/xian-yu-quan-gang-ma-jiang/id1186760144?l=zh&ls=1&mt=8"
+      },
+      {
+        "serverType": "fuzhou",
+        "configFile": "./mjfuzhou.json",
+        "newVersion": "1.0",
+        "isDownGame": 0,
+        "downloadUrlAndroid": "http://a.app.qq.com/o/simple.jsp?pkgname=win.yiqigame.majiang.quangang",
+        "downloadUrlIOS": "https://itunes.apple.com/us/app/xian-yu-quan-gang-ma-jiang/id1186760144?l=zh&ls=1&mt=8"
+      },
+      {
+        "serverType": "qidong",
+        "configFile": "./mjqidong.json",
+        "newVersion": "1.0",
+        "isDownGame": 0,
+        "downloadUrlAndroid": "http://a.app.qq.com/o/simple.jsp?pkgname=win.yiqigame.majiang.quangang",
+        "downloadUrlIOS": "https://itunes.apple.com/us/app/xian-yu-quan-gang-ma-jiang/id1186760144?l=zh&ls=1&mt=8"
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+    "gameType":"wuhan",
+    "time_config":
+    {
+        "readyTime" : 5,
+        "outCardTime": 15
+    },
+    "minPlayerNumbers": 4,
+    "maxPlayerNumbers": 4,
+    "minNiao":2,
+    "maxNiao":6,
+    "isCanChi":1,
+    "isHongZhong":0,
+    "isNeedGem" :1,
+    "isOpenPack":1,
+    "privateTableNumber": {
+        "wuhan-server-1": 100000,
+        "wuhan-server-2": 200000,
+        "wuhan-server-3": 300000,
+        "wuhan-server-4": 400000
+    }
+}

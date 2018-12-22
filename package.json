@@ -1,0 +1,29 @@
+{
+  "name": "yiqigame",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "async": "*",
+    "crc": "*",
+    "moment": "^2.18.1",
+    "mysql": "*",
+    "node-zookeeper-client": "*",
+    "pomelo": "*",
+    "pomelo-http-plugin": "*",
+    "pomelo-logger": "*",
+    "pomelo-masterha-plugin": "*",
+    "pomelo-monitor": "*",
+    "pomelo-scheduler": "*",
+    "pomelo-sync-plugin": "*",
+    "socket.io": "*",
+    "socket.io-client": "*",
+    "underscore": "*",
+    "urllib": "*",
+    "wechat-oauth": "*",
+    "wx_jsapi_sign": "*"
+  },
+  "devDependencies": {
+    "should": ">=0.0.1",
+    "mocha": ">=0.0.1"
+  }
+}

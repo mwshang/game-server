@@ -1,0 +1,188 @@
+[2018-12-14 14:16:53.639] [ERROR] pomelo-rpc - [31m71: [mqtt-acceptor] [39mprocess rpc message error TypeError: this.mjNotifyTingChoice is not a function
+    at Message.pro.mjNotifyDelCards (/root/game-server/app/domain/wuhan/message.js:212:10)
+    at Instance.checkPlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1496:22)
+    at Instance.updatePlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1524:10)
+    at Instance.updatePlayerOp (/root/game-server/app/domain/wuhan/table.js:982:22)
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:290:23
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+    at next (/root/game-server/node_modules/async/dist/async.js:5304:9)
+    at /root/game-server/node_modules/async/dist/async.js:906:16
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:287:17
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+[2018-12-14 14:16:53.641] [WARN] pomelo-rpc - [33m264: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-1 remote: undefined, host: 127.0.0.1, port: 3951
+[2018-12-14 14:22:18.575] [ERROR] pomelo-rpc - [31m71: [mqtt-acceptor] [39mprocess rpc message error TypeError: this.mjNotifyTingChoice is not a function
+    at Message.pro.mjNotifyDelCards (/root/game-server/app/domain/wuhan/message.js:212:10)
+    at Instance.checkPlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1496:22)
+    at Instance.updatePlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1524:10)
+    at Instance.updatePlayerOp (/root/game-server/app/domain/wuhan/table.js:982:22)
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:290:23
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+    at next (/root/game-server/node_modules/async/dist/async.js:5304:9)
+    at /root/game-server/node_modules/async/dist/async.js:906:16
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:287:17
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+[2018-12-14 14:22:18.576] [WARN] pomelo-rpc - [33m264: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-1 remote: undefined, host: 127.0.0.1, port: 3951
+[2018-12-14 14:23:24.446] [ERROR] pomelo-rpc - [31m71: [mqtt-acceptor] [39mprocess rpc message error TypeError: this.mjNotifyTingChoice is not a function
+    at Message.pro.mjNotifyDelCards (/root/game-server/app/domain/wuhan/message.js:212:10)
+    at Instance.checkPlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1496:22)
+    at Instance.updatePlayerBuCard (/root/game-server/app/domain/wuhan/table.js:1524:10)
+    at Instance.updatePlayerOp (/root/game-server/app/domain/wuhan/table.js:982:22)
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:290:23
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+    at next (/root/game-server/node_modules/async/dist/async.js:5304:9)
+    at /root/game-server/node_modules/async/dist/async.js:906:16
+    at /root/game-server/app/servers/wuhan/handler/mjRoomHandler.js:287:17
+    at nextTask (/root/game-server/node_modules/async/dist/async.js:5297:14)
+[2018-12-14 14:23:24.447] [WARN] pomelo-rpc - [33m264: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-1 remote: undefined, host: 127.0.0.1, port: 3951
+[2018-12-14 14:25:19.417] [ERROR] pomelo-rpc - [31m82: [mqtt-mailbox] [39mrpc client connector-server-1 process remote server chat-server-1 message with error: TypeError: Cannot read property 'msgRemote' of undefined
+    at /root/game-server/app/servers/connector/handler/entryHandler.js:79:21
+    at /root/game-server/node_modules/async/dist/async.js:421:16
+    at next (/root/game-server/node_modules/async/dist/async.js:5302:29)
+    at /root/game-server/node_modules/async/dist/async.js:906:16
+    at /root/game-server/app/servers/connector/handler/entryHandler.js:69:7
+    at Object.Utils.applyCallback (/root/game-server/node_modules/pomelo-rpc/lib/util/utils.js:11:6)
+    at /root/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:268:15
+    at doFilter (/root/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:356:5)
+    at /root/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:264:7
+    at processMsg (/root/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:245:3)
+[2018-12-18 18:47:31.883] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-18 21:46:13.459] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket wuhan-server-2 is error, remote server connector-server-1 host: 127.0.0.1, port: 3150
+[2018-12-19 10:15:40.878] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket wuhan-server-2 is error, remote server hall-server-1 host: 127.0.0.1, port: 3850
+[2018-12-19 10:15:40.886] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server hall-server-1 host: 127.0.0.1, port: 3850
+[2018-12-19 10:15:40.911] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-19 10:15:40.919] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-19 10:15:40.932] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server auth-server-1 host: 127.0.0.1, port: 3650
+[2018-12-19 10:15:40.961] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: 3450
+[2018-12-19 10:20:23.405] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mmqtt rpc client hall-server-1 checkKeepAlive timeout from remote server connector-server-1 for 20000 lastPing: 1545186003404 lastPong: 1545185993405
+[2018-12-19 10:20:58.224] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 19 host: 127.0.0.1, port: 3950
+[2018-12-19 10:20:58.226] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 19 host: 127.0.0.1, port: 3950
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-19 10:20:58.228] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: wuhan-server-1, msg: {"namespace":"user","serverType":"wuhan","service":"gRemote","method":"checkGameing","args":[{"uid":100006}]}, error code: 5
+[2018-12-19 10:20:58.246] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-1 remote: 19, host: 127.0.0.1, port: 3950
+[2018-12-19 13:05:14.655] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket hall-server-1 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-19 13:05:14.654] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-19 13:05:14.669] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-19 13:05:14.671] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket hall-server-1 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-19 13:05:14.674] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: 3450
+[2018-12-19 13:05:14.691] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server auth-server-1 host: 127.0.0.1, port: 3650
+[2018-12-19 13:05:14.701] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server hall-server-1 host: 127.0.0.1, port: 3850
+[2018-12-19 16:14:42.198] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket hall-server-1 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-19 16:14:42.200] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket hall-server-1 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-19 16:14:42.205] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server wuhan-server-1 host: 127.0.0.1, port: 3950
+[2018-12-19 16:14:42.206] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-19 16:14:42.206] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-1 host: 127.0.0.1, port: 3450
+[2018-12-19 16:14:42.206] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server auth-server-1 host: 127.0.0.1, port: 3650
+[2018-12-19 18:34:14.735] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-online\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-20 17:02:22.086] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-20 17:02:22.087] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-20 17:02:52.047] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+[2018-12-20 17:02:52.047] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-20 17:02:52.048] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100005,"deviceID":"岑尔曼","regType":"1","userName":"chen2","password":"chen2","nickName":"岑尔曼","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKwwAgFucetibIPKhEwgO2aHd2z5T41t1UFkRYicRBic3lj5h7iaua00WZD03khj7POdgTuRxKOJIOGQ/0","vipLevel":30,"coinNum":1000,"gemNum":8845,"scoreNum":200,"goldNum":6015,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":853,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:51:11.000Z","offLineTime":null,"curVersion":null,"wxAccount":null,"ip":"::ffff:192.168.220.1"},"uid":100005,"serverId":"connector-server-2","ip":"::ffff:192.168.220.1","gameServerType":""}]}, error code: 5
+[2018-12-20 17:03:04.300] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-20 17:03:04.301] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-20 17:03:34.260] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+[2018-12-20 17:03:34.282] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-20 17:03:34.282] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100005,"deviceID":"岑尔曼","regType":"1","userName":"chen2","password":"chen2","nickName":"岑尔曼","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKwwAgFucetibIPKhEwgO2aHd2z5T41t1UFkRYicRBic3lj5h7iaua00WZD03khj7POdgTuRxKOJIOGQ/0","vipLevel":30,"coinNum":1000,"gemNum":8845,"scoreNum":200,"goldNum":6015,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":853,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:51:11.000Z","offLineTime":null,"curVersion":null,"wxAccount":null,"ip":"::ffff:192.168.220.1"},"uid":100005,"serverId":"connector-server-2","ip":"::ffff:192.168.220.1","gameServerType":""}]}, error code: 5
+[2018-12-20 17:04:17.264] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-20 17:04:17.266] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-20 17:04:47.255] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 3 host: 127.0.0.1, port: 3850
+[2018-12-20 17:04:47.255] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 3 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-20 17:04:47.256] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100005,"deviceID":"岑尔曼","regType":"1","userName":"chen2","password":"chen2","nickName":"岑尔曼","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKwwAgFucetibIPKhEwgO2aHd2z5T41t1UFkRYicRBic3lj5h7iaua00WZD03khj7POdgTuRxKOJIOGQ/0","vipLevel":30,"coinNum":1000,"gemNum":8845,"scoreNum":200,"goldNum":6015,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":853,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:51:11.000Z","offLineTime":null,"curVersion":null,"wxAccount":null,"ip":"::ffff:192.168.220.1"},"uid":100005,"serverId":"connector-server-2","ip":"::ffff:192.168.220.1","gameServerType":""}]}, error code: 5
+[2018-12-20 17:04:59.671] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-20 17:04:59.672] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-1 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-20 17:05:29.640] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+[2018-12-20 17:05:29.641] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-20 17:05:29.642] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100006,"deviceID":"昌立辉","regType":"1","userName":"chen3","password":"chen3","nickName":"6YGH6KeB","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLQnGXrSPplaIzbpYNiaF5rrOMJuJgsx6vZT66ug9l3157RVBoX8DJdfI9Z2kYWxO1TIiavEVBibgqIg/0","vipLevel":30,"coinNum":1000,"gemNum":7666,"scoreNum":200,"goldNum":14237,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":285,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:46:04.000Z","offLineTime":null,"curVersion":null,"wxAccount":" gt5gt","ip":"::ffff:192.168.220.1"},"uid":100006,"serverId":"connector-server-1","ip":"::ffff:192.168.220.1","gameServerType":""}]}, error code: 5
+[2018-12-20 17:05:56.807] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-20 17:05:56.807] [WARN] pomelo-rpc - [33m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-20 17:06:26.799] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 6 host: 127.0.0.1, port: 3850
+[2018-12-20 17:06:26.799] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 6 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-20 17:06:26.800] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100005,"deviceID":"岑尔曼","regType":"1","userName":"chen2","password":"chen2","nickName":"岑尔曼","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKwwAgFucetibIPKhEwgO2aHd2z5T41t1UFkRYicRBic3lj5h7iaua00WZD03khj7POdgTuRxKOJIOGQ/0","vipLevel":30,"coinNum":1000,"gemNum":8845,"scoreNum":200,"goldNum":6015,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":853,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:51:11.000Z","offLineTime":null,"curVersion":null,"wxAccount":null,"ip":"::ffff:192.168.220.1"},"uid":100005,"serverId":"connector-server-2","ip":"::ffff:192.168.220.1","gameServerType":""}]}, error code: 5
+[2018-12-20 17:28:52.477] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+[2018-12-20 17:28:52.486] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server hall-server-1 host: 127.0.0.1, port: 3850
+[2018-12-20 17:28:52.490] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server auth-server-1 host: 127.0.0.1, port: 3650
+[2018-12-20 17:28:52.496] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-1 host: 127.0.0.1, port: 3450
+[2018-12-20 18:46:59.899] [ERROR] pomelo-rpc - [31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc client connector-server-2 process remote server chat-server-1 message with error: TypeError: Cannot read property 'msgRemote' of undefined
+    at E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js:79:21
+    at E:\luxuan\server\game-server-git\game-server\node_modules\async\dist\async.js:421:16
+    at next (E:\luxuan\server\game-server-git\game-server\node_modules\async\dist\async.js:5302:29)
+    at E:\luxuan\server\game-server-git\game-server\node_modules\async\dist\async.js:906:16
+    at E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js:69:7
+    at Object.Utils.applyCallback (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\util\utils.js:11:6)
+    at E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:268:15
+    at doFilter (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:356:5)
+    at E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:264:7
+    at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:245:3)

@@ -1,0 +1,20 @@
+  {
+    "time_config":
+    {
+        "readyTime" : 5,
+        "outCardTime": 15
+    },
+    "minPlayerNumbers": 4,
+    "maxPlayerNumbers": 4,
+    "minNiao":2,
+    "maxNiao":6,
+    "isCanChi":1,
+    "isHongZhong":0,
+    "isNeedGem" :0,
+    "privateTableNumber": {
+      "fuzhou-server-1": 100000,
+      "fuzhou-server-2": 200000,
+      "fuzhou-server-3": 300000,
+      "fuzhou-server-4": 400000
+    }
+  }

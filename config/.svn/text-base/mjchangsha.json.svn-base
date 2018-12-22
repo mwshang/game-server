@@ -1,0 +1,19 @@
+  {
+  	"changsha-server-1":
+    [
+        {"id": "private", "name": "私人房间", "baseBet":0,"condition":0,"ticket":0,"tables": 1, "startIndex":100000 }
+    ],
+    "changsha_time_config":
+    {
+        "readyTime" : 5,
+        "outCardTime": 15
+    },
+    "minPlayerNumbers": 4,
+    "maxPlayerNumbers": 4,
+    "minNiao":2,
+    "maxNiao":6,
+    "isCanChi":1,
+    "isHongZhong":0,
+    "isNeedGem" :1,
+    "privateTableNumber": 100000
+  }

@@ -1,0 +1,18 @@
+  {
+  	"douniu-server-1":
+    [
+        {"id": "novice", "name": "新手村", "baseBet":20,"condition":200,"ticket":0,"tables": 10, "startIndex":0  },
+        {"id": "advanced", "name": "高级场", "baseBet":100,"condition":2000,"ticket":0,"tables": 10, "startIndex":10 },
+        {"id": "private", "name": "私人房间", "baseBet":10,"condition":100,"ticket":0,"tables": 1, "startIndex":65535 }
+    ],
+    "douniu_time_config":
+    {
+        "addRobotTime" : 4,
+        "readyTime" : 8,
+        "sendCardTime": 5,
+        "bankerTime": 8,
+        "openCardTime": 8,
+        "resultTime": 15,
+        "resetTime":8
+    }
+  }

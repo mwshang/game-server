@@ -1,0 +1,16 @@
+  {
+    "time_config":
+    {
+        "readyTime" : 5,
+        "outCardTime": 15
+    },
+    "minPlayerNumbers": 3,
+    "maxPlayerNumbers": 3,
+    "isNeedGem" :1,
+    "privateTableNumber": {
+      "paodekuai-server-1": 100000,
+      "paodekuai-server-2": 200000,
+      "paodekuai-server-3": 300000,
+      "paodekuai-server-4": 400000
+    }
+  }

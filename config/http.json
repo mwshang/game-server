@@ -1,0 +1,44 @@
+{
+  "development": {
+    "https": {
+      "useSSL": true,
+      "keyFile": "config/key.pem",
+      "certFile": "config/cert.pem",
+      "host": "dev3.lekoy.com",
+      "port": 5002
+    },
+    "http": {
+      "host": "192.168.220.1",
+      "port": 3016
+    },
+    "wxhttps": {
+      "host": "192.168.220.1",
+      "port": 7082
+    },
+    "wxhttp": {
+      "host": "192.168.220.1",
+      "port": 7081
+    }
+  },
+  "production": {
+    "https": {
+      "useSSL": true,
+      "keyFile": "config/key.pem",
+      "certFile": "config/cert.pem",
+      "host": "139.224.199.49",
+      "port": 5002
+    },
+    "http": {
+      "host": "192.168.220.1",
+      "port": 5001
+    },
+    "wxhttps": {
+      "host": "139.224.199.49",
+      "port": 8082
+    },
+    "wxhttp": {
+      "host": "139.224.199.49",
+      "port": 8081
+    }
+  }
+}

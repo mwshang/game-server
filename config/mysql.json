@@ -1,0 +1,16 @@
+{
+	"development": {
+	  "host" : "192.168.220.1",
+		"port" : "3307",
+		"database" : "wuhan",
+		"user" : "root",
+		"password" : "123456"
+	},
+	"production": {
+	  "host" : "139.196.167.96",
+		"port" : "3306",
+		"database" : "majhong",
+		"user" : "root",
+		"password" : "douniu"
+	}
+}

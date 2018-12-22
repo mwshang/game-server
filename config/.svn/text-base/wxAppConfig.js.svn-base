@@ -1,0 +1,8 @@
+module.exports = function() {
+    // 输入你的配置
+    return {
+        appId: 'wx141e972db10ae74f',
+        appSecret: 'a61ee3c91b5e562ffe0fd184b473ba32',
+        appToken: 'qphall',
+    };
+};

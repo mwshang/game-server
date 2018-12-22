@@ -1,0 +1,5 @@
+{
+  "loadAutoTable": true,
+  "packLossMode": 2,
+  "createLoss": {"key": "gemNum", "val": 888}
+}
