@@ -23,7 +23,7 @@ var HU_SCORE =
     DA_HU_JIEPAO:8
 }
 
-//平胡番数对应的底分
+//平胡番数对应的番数分
 // var PINGHU_SCORE={
 //     6:100,
 //     7:200,
@@ -38,7 +38,7 @@ var PINGHU_SCORE={
     9:512,
     10:1024
 }
-//大胡番数对应的底分
+//大胡番数对应的番数分
 // var DAHU_SCORE={
 //     3:100,
 //     4:200,
@@ -47,14 +47,16 @@ var PINGHU_SCORE={
 //     7:1000
 // }
 var DAHU_SCORE={
-    3:10,
-    4:15,
-    5:30,
-    6:60,
-    7:120
+    3:80,
+    4:160,
+    5:320,
+    6:640,
+    7:1280
 }
 //金顶底分
-var JINDING_SCORE = 1500;
+var JINDING_SCORE = 0;
+var JINDING_PINGHU = 1024;//平胡金顶
+var JINDING_DAHU = 1280;//大胡金顶
 
 
 var HUI_FANG_TYPE = {
@@ -438,6 +440,7 @@ pro.gameOver = function(){
     gameResult["bigWiner"] = this.bigWiner[this.bigWiner.length - 1];
     gameResult["paoShou"] = this.paoShou[this.paoShou.length - 1];
     gameResult["fangZhu"] = this.table.FangZhu;
+    gameResult["baseScore"] = this.baseScore;
 
     //回放记录保存
     this.updatehuifangAttDao();
@@ -563,12 +566,107 @@ pro.updateLastScore = function(players){
     }
 }
 
+// 检测是否金顶
+pro.checkJinDing = function(players) {
+    var totalFanShu = 0;
+
+    for (var uid in players)
+    {
+        var player = players[uid];
+        if (player.isFangPao == 1){
+            continue;
+        }
+        if(player.isHu == 1) {
+            if (player.huChoice[0].type == Const.WuHanHuType.PingHu)
+            {
+                var kaiKouNum = player.kaiKouScore();
+                //庄加一番
+                if(uid == this.table.bankerUid){
+                    kaiKouNum += 1;
+                }
+                //自摸加一番
+                if(player.isZimo == 1){
+                    kaiKouNum += 1;
+                }
+                //硬胡
+                if(player.isYingHu){
+                    kaiKouNum += 1;
+                }
+                for (var loseUid in players)
+                {
+                    if(loseUid != uid )
+                    {
+
+                        var loseKaiKuNum = players[loseUid].kaiKouScore();
+                        //庄加一番
+                        if(loseUid == this.table.bankerUid){
+                            loseKaiKuNum += 1;
+                        }
+                        //放炮加一番
+                        if(players[loseUid].isFangPao == 1){
+                            loseKaiKuNum += 1;
+                        }
+
+                        var totalKaiKou = kaiKouNum + loseKaiKuNum;                       
+                        if(totalKaiKou > 10){
+                            totalKaiKou = 10;
+                        }
+                        totalFanShu += totalKaiKou;
+
+                    }
+
+                }
+            } else {//大胡
+                if(player.isHuExist(Const.WuHanHuType.FengYiSe)) {//风一色
+                    totalFanShu = 30;
+                } else {
+                    var kaiKouNum = player.kaiKouScore();
+
+                    //自摸加一番 //杠开 不算自摸
+                    if(player.isZimo == 1 && !player.isHuExist(Const.WuHanHuType.GangKaiHua) && !player.isHuExist(Const.WuHanHuType.HaiDiLaoYue)){
+                        kaiKouNum += 1;
+                    }
+                    //硬胡
+                    if(player.isYingHu){
+                        kaiKouNum += 1;
+                    }
+                    //累计大胡
+                    kaiKouNum += player.huChoice.length - 1;
+                    for (var loseUid in players)
+                    {
+                        if(loseUid != uid )
+                        {
+                            var loseKaiKuNum = players[loseUid].kaiKouScore();
+                            //放炮加一番
+                            if(players[loseUid].isFangPao == 1){
+                                loseKaiKuNum += 1;
+                            }
+
+                            var totalKaiKou = kaiKouNum + loseKaiKuNum;
+                            if(totalKaiKou >= 7){
+                                totalKaiKou = 10;
+                            }
+                            totalFanShu += totalKaiKou;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+    return {isJinDing:totalFanShu>=30};
+}
+
 //玩有胡牌分数
 //一家放炮，三家输。庄家与另外三家番数，分别计算。
 pro.capHuScore = function(players, huPlayerUids){
     logger.debug("开始算分====");
     logger.debug("beforeLaiZi: %j",this.beforeLaiZi);
     logger.debug("curLaiZi: %j",this.table.jinPai);
+
+    var dinDingInfo = this.checkJinDing(this.table.PlayerUids);
+    var isJinDing = dinDingInfo["isJinDing"];
 
     var fangPaoUid = -1;
     for (var uid in this.table.PlayerUids)
@@ -594,6 +692,8 @@ pro.capHuScore = function(players, huPlayerUids){
 
             if (player.huChoice[0].type == Const.WuHanHuType.PingHu)
             {
+                JINDING_SCORE = JINDING_PINGHU;
+
                 var kaiKouNum = player.kaiKouScore();
                 logger.debug("uid:%j gdGang:%j",player.uid,player.paiGdGang);
                 logger.debug("chi:%j, peng:%j, ming:%j, an:%j",player.chiHandScore(),player.pengHandScore(),player.mingGangScore(),player.anGangScore());
@@ -647,6 +747,12 @@ pro.capHuScore = function(players, huPlayerUids){
                         }else if(totalKaiKou > 10){
                             totalKaiKou = 10;
                         }
+                        //-------------
+                        // mwshang 金顶规则 
+                        if (isJinDing == false && totalKaiKou >= 10) {//如果不是金顶,按9番计算
+                            totalKaiKou = 9;
+                        }
+                        ////====
 
                         diScore = PINGHU_SCORE[totalKaiKou];
 
@@ -656,7 +762,7 @@ pro.capHuScore = function(players, huPlayerUids){
                                 players[p]["winScore"] -= diScore;
                                 players[p]["diScore"] = diScore;
                                 players[p]["fanShu"] = loseKaiKuNum;
-
+                                break;
                             }
                         }
 
@@ -670,6 +776,8 @@ pro.capHuScore = function(players, huPlayerUids){
             }else{
                 players[playerIndex]["isDaHu"] = 1;
                 players[playerIndex]["huDiSocre"] = 10;
+
+                JINDING_SCORE = JINDING_DAHU;
 
                 //风一色，直接三家金顶
                 if(player.isHuExist(Const.WuHanHuType.FengYiSe))
@@ -758,7 +866,7 @@ pro.capHuScore = function(players, huPlayerUids){
                                 totalKaiKou = 7;
                             }
 
-                            diScore = DAHU_SCORE[totalKaiKou];
+                            diScore = DAHU_SCORE[totalKaiKou]; // 番数分
 
                             for (var p = 0; p < players.length; p++){
                                 if (players[p]["uid"] == loseUid){
@@ -784,9 +892,11 @@ pro.capHuScore = function(players, huPlayerUids){
             this.scoreDebug(players);
 
             if(!player.isHuExist(Const.WuHanHuType.QiangGangHu)){
-                this.jinDingScore(players,playerIndex,uid);
-                logger.debug("金顶胡牌计算分数");
-                this.scoreDebug(players);
+                if (isJinDing) {
+                    this.jinDingScore(players,playerIndex,uid);
+                    logger.debug("金顶胡牌计算分数");
+                    this.scoreDebug(players);
+                }
             }
 
             //只有一个玩家可以胡
@@ -800,8 +910,8 @@ pro.capHuScore = function(players, huPlayerUids){
 
 //三家同时封顶，则直接金顶
 pro.jinDingScore = function(players,playerIndex,uid){
-
-    if(players[playerIndex]["winScore"] >= 3000)
+    var baseJinDing = JINDING_SCORE * 3;
+    if(players[playerIndex]["winScore"] >= baseJinDing)
     {
         for (var p = 0; p < players.length; p++)
         {
@@ -923,15 +1033,31 @@ pro.capBaoPaiScore = function(players,huPlayerUids){
             }
 
         }
-    }else if(huPlayer.isHuExist(Const.WuHanHuType.QuanQiuRen) && huPlayer.isZimo != 1 )
+    }else if(huPlayer.isHuExist(Const.WuHanHuType.QuanQiuRen) && huPlayer.isZimo != 1 ) // 全求人
     {
         var lastOpPlayer = this.table.playerUids[this.table.LastOP["lastUid"]];
         var lastPai = lastOpPlayer.paiChu.slice(-1);
 
         if(lastOpPlayer.allJiangPai() != true && lastOpPlayer.checkJiang(lastPai[0]))
         {
-            isBaoPai = true;
-            this.baoPaiAddScore(huPlayer.uid,lastOpPlayer.uid,players);
+
+            if (lastOpPlayer.checkTing()) {//放炮者报听了,3家承包
+                this.baoPaiAddScore(huPlayer.uid,lastOpPlayer.uid,players);
+            } else {//放炮者承包
+                isBaoPai = true;
+                for (var p = 0; p < players.length; p++)
+                {
+                    if (players[p]["uid"] != lastOpPlayer.uid && players[p]["uid"] != huPlayer.uid)
+                    {
+                        players[p]["winScore"] = 0;
+                        players[p]["diScore"] = 0;
+                    }
+                    lastOpPlayer["winScore"] = -lastOpPlayer["diScore"] * 3;
+                    huPlayer["winScore"] = -lastOpPlayer["winScore"];
+                }
+            }
+            
+            
             logger.debug("全求人包牌%j  包牌者id %j ",huPlayer.uid,lastOpPlayer.uid);
         }
     }

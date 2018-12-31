@@ -200,6 +200,13 @@ Handler.prototype.initSeat = function(msg, session, next)
  changsha.changshaPRoomHandler.updateDelCards
  opCard {type:value}
  uid
+ @param msg = {
+    uid,
+    opCard:{
+        type,//F
+        value,//1
+    }
+ }
 */
 Handler.prototype.updateDelCards = function(msg, session, next)
 {

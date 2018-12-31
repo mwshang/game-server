@@ -1150,3 +1150,175 @@
 [2018-12-21 12:57:18.676] [INFO] pomelo-admin - [32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
 [2018-12-21 12:57:18.767] [INFO] pomelo-admin - [32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
 [2018-12-21 12:57:19.305] [INFO] pomelo-admin - [32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:14:58.749] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:14:58.789] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:14:59.658] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:14:59.814] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:14:59.860] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:14:59.935] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:14:59.945] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:15:00.061] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:15:00.476] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:36:01.716] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:36:01.751] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:36:02.544] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:36:02.725] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:36:02.767] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:36:02.774] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:36:02.848] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:36:02.885] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:36:03.387] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:39:45.289] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:39:45.325] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:39:46.317] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:39:46.463] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:39:46.502] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:39:46.559] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:39:46.552] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:39:46.670] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:39:47.203] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:40:46.818] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:40:46.852] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:40:47.809] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:40:47.905] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:40:48.102] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:40:48.150] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:40:48.155] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:40:48.209] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:40:48.822] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:43:04.254] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:43:04.288] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:43:05.119] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:43:05.266] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:43:05.349] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:43:05.343] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:43:05.369] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:43:05.411] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:43:05.941] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:44:58.188] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:44:58.223] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:44:59.056] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:44:59.249] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:44:59.254] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:44:59.283] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:44:59.400] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:44:59.448] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:44:59.857] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 08:47:52.895] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 08:47:52.934] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 08:47:53.752] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 08:47:53.900] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 08:47:53.971] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:47:54.064] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 08:47:54.108] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:47:54.141] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 08:47:54.210] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 08:47:54.629] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 09:18:02.848] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 09:18:02.883] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 09:18:03.727] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 09:18:03.919] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:18:03.910] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 09:18:03.944] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:18:04.050] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 09:18:04.096] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:18:04.129] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:18:04.571] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 09:25:44.084] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 09:25:44.118] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 09:25:44.978] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 09:25:45.123] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 09:25:45.164] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:25:45.250] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 09:25:45.267] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:25:45.308] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:25:45.316] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:25:45.760] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 09:26:32.823] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 09:26:32.861] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 09:26:33.789] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 09:26:33.940] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 09:26:34.004] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:26:34.066] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 09:26:34.050] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 09:26:34.089] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:26:34.258] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 09:26:34.639] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 16:30:42.738] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 16:30:42.772] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 16:30:43.582] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 16:30:43.758] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 16:30:43.805] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 16:30:43.794] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 16:30:43.952] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 16:30:43.948] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 16:30:43.969] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 16:30:44.387] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 17:14:18.116] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 17:14:18.149] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 17:14:18.988] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 17:14:19.106] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 17:14:19.143] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:14:19.160] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:14:19.258] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 17:14:19.318] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:14:19.364] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:14:19.765] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 17:22:36.942] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 17:22:36.974] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 17:22:37.823] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 17:22:37.952] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:22:37.914] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 17:22:37.974] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:22:38.114] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:22:38.115] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 17:22:38.196] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:22:38.592] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 17:23:21.328] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 17:23:21.361] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 17:23:22.260] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 17:23:22.369] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:23:22.403] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 17:23:22.401] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 17:23:22.548] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:23:22.552] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 17:23:22.599] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 17:23:23.074] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 18:51:25.245] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 18:51:25.277] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 18:51:26.118] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 18:51:26.262] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 18:51:26.326] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 18:51:26.327] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 18:51:26.359] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 18:51:26.429] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 18:51:26.515] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 18:51:26.930] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 19:19:09.190] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 19:19:09.224] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 19:19:10.128] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 19:19:10.252] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 19:19:10.315] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:19:10.402] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:19:10.461] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 19:19:10.494] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 19:19:10.521] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 19:19:11.001] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 19:48:32.281] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 19:48:32.315] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 19:48:33.143] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 19:48:33.300] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:48:33.304] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 19:48:33.315] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:48:33.381] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 19:48:33.833] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+[2018-12-31 19:51:27.965] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[2018-12-31 19:51:28.002] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+[2018-12-31 19:51:28.881] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+[2018-12-31 19:51:29.110] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+[2018-12-31 19:51:29.144] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:51:29.155] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+[2018-12-31 19:51:29.194] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 19:51:29.241] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+[2018-12-31 19:51:29.306] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+[2018-12-31 19:51:29.827] [INFO] pomelo-admin - [32m\work\server\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005

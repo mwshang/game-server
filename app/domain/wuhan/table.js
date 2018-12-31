@@ -878,6 +878,8 @@ Instance.prototype.initCards2Player = function()
  * */
 Instance.prototype.isNotifyPlayerOp = function(playerUid,pai,isGang,selfUid)
 {
+    //this.isNotifyPlayerOp(null,msg.opCard,false,msg.uid);
+    logger.debug("isNotifyPlayerOp------playerUid:%j,selfUid:%j",playerUid,selfUid);
     var t = false;
     var nextUid = this.getNextUid(selfUid);
     if (playerUid == undefined || playerUid == null){
@@ -916,6 +918,18 @@ Instance.prototype.isNotifyPlayerOp = function(playerUid,pai,isGang,selfUid)
         this.Data.updateHuiFang({type:3});
     }
     return t;
+}
+Instance.prototype.addCurrentOPArr = function(msg,fromUid)
+{
+    if (msg) {
+        logger.debug("addCurrentOPArr------msg:%j",msg);
+        msg["from"] = {"uid":fromUid};
+        this.currentOPArr.push(msg);
+
+        if (!fromUid) {
+            logger.error("addCurrentOPArr nil fromUid:%j",msg);
+        }
+    }
 }
 /*
  通知客户端玩家操作
@@ -1234,6 +1248,13 @@ Instance.prototype.isInterruptPlayerOP = function(msg)
 
 /*
  同步客户端玩家出牌
+ @param msg = {//mwshang
+    uid,
+    opCard:{
+        type,//F
+        value,//1
+    }
+ }
  * */
 Instance.prototype.updatePlayerDelCard = function(msg)
 {
@@ -1375,6 +1396,10 @@ Instance.prototype.updatePlayerMoCard = function(nextUid){
 Instance.prototype.updatePlayerChiCard = function(msg){
     //同步吃 判断玩家是否 有操作 通知吃牌玩家打牌 监听打牌消息
     this.playerUids[msg.uid].playerChiPai(msg.index, msg.opCard);
+    logger.debug("updatePlayerChiCard-------------1");
+    logger.debug("msg:" + JSON.stringify(msg));
+    logger.debug("player:" + JSON.stringify(this.playerUids[msg.uid]));
+    logger.debug("updatePlayerChiCard-------------2");
     //只能判断玩家是否可以杠 不能胡
     this.playerUids[msg.uid].IsCanHu = false;
     if (this.isNotifyPlayerOp(msg.uid,null,false,null) == true){
@@ -1390,6 +1415,10 @@ Instance.prototype.updatePlayerChiCard = function(msg){
 Instance.prototype.updatePlayerPengCard = function(msg){
     //同步碰 判断玩家是否有操作 有则操作 没有则通知玩家打牌
     this.playerUids[msg.uid].playerPengPai(msg.opCard);
+    //logger.debug("updatePlayerPengCard-------------1");
+    //logger.debug("msg:" + JSON.stringify(msg));
+    //logger.debug("player:" + JSON.stringify(this.playerUids[msg.uid]));
+    //logger.debug("updatePlayerPengCard-------------2");
     //只能判断玩家是否可以杠 不能胡
     this.playerUids[msg.uid].IsCanHu = false;
     if (this.isNotifyPlayerOp(msg.uid,null,false,null) == true){

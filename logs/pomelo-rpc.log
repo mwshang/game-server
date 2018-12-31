@@ -186,3 +186,46 @@
     at doFilter (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:356:5)
     at E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:264:7
     at processMsg (E:\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:245:3)
+[2018-12-31 10:34:46.840] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Instance.updatePlayerChiCard (D:\work\server\game-server\app\domain\wuhan\table.js:1380:35)
+    at Instance.updatePlayerOp (D:\work\server\game-server\app\domain\wuhan\table.js:976:22)
+    at D:\work\server\game-server\app\servers\wuhan\handler\mjRoomHandler.js:290:23
+    at nextTask (D:\work\server\game-server\node_modules\async\dist\async.js:5297:14)
+    at next (D:\work\server\game-server\node_modules\async\dist\async.js:5304:9)
+    at D:\work\server\game-server\node_modules\async\dist\async.js:906:16
+    at D:\work\server\game-server\app\servers\wuhan\handler\mjRoomHandler.js:287:17
+    at nextTask (D:\work\server\game-server\node_modules\async\dist\async.js:5297:14)
+    at Object.waterfall (D:\work\server\game-server\node_modules\async\dist\async.js:5307:5)
+[2018-12-31 10:34:46.841] [WARN] pomelo-rpc - [33m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3950
+[2018-12-31 10:48:03.650] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Instance.updatePlayerChiCard (D:\work\server\game-server\app\domain\wuhan\table.js:1380:35)
+    at Instance.updatePlayerOp (D:\work\server\game-server\app\domain\wuhan\table.js:976:22)
+    at D:\work\server\game-server\app\servers\wuhan\handler\mjRoomHandler.js:290:23
+    at nextTask (D:\work\server\game-server\node_modules\async\dist\async.js:5297:14)
+    at next (D:\work\server\game-server\node_modules\async\dist\async.js:5304:9)
+    at D:\work\server\game-server\node_modules\async\dist\async.js:906:16
+    at D:\work\server\game-server\app\servers\wuhan\handler\mjRoomHandler.js:287:17
+    at nextTask (D:\work\server\game-server\node_modules\async\dist\async.js:5297:14)
+    at Object.waterfall (D:\work\server\game-server\node_modules\async\dist\async.js:5307:5)
+[2018-12-31 10:48:03.651] [WARN] pomelo-rpc - [33m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3950
+[2018-12-31 19:49:13.723] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js: [mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'length' of undefined
+    at Remote.pro.enterMsgHall (D:\work\server\game-server\app\servers\hall\remote\msgRemote.js:57:28)
+    at Dispatcher.pro.route (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at processMsgs (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:176:5)
+    at Connection.<anonymous> (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:59:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (D:\work\server\game-server\node_modules\mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+[2018-12-31 19:49:13.725] [WARN] pomelo-rpc - [33m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mtimer is not exsits, serverId: connector-server-2 remote: undefined, host: 127.0.0.1, port: 3850
+[2018-12-31 19:49:43.686] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+[2018-12-31 19:49:43.687] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js: [MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 3850
+    at Timeout.<anonymous> (D:\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-12-31 19:49:43.688] [ERROR] pomelo-rpc - [31m\work\server\game-server\node_modules\pomelo-rpc\lib\rpc-client\failureProcess.js: [failprocess] [39mrpc failed with error, remote server: hall-server-1, msg: {"namespace":"user","serverType":"hall","service":"msgRemote","method":"enterMsgHall","args":[{"player":{"uid":100007,"deviceID":"常致远","regType":"1","userName":"zhang1","password":"zhang1","nickName":"6YGH6KeB","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/y2gXm61b7ywy2br0QNNDuVz7Lq87Red2SEibsicXeqQPPbrVOcSKWJ3as1xcnYtk72FBlncRzjfBhn9ic0n6BkwXQ/0","vipLevel":30,"coinNum":1000,"gemNum":4281,"scoreNum":200,"goldNum":5455,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":1054,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-29T03:44:56.000Z","offLineTime":null,"curVersion":null,"wxAccount":" ","ip":"::ffff:192.168.1.109"},"uid":100007,"serverId":"connector-server-2","ip":"::ffff:192.168.1.109","gameServerType":""}]}, error code: 5
