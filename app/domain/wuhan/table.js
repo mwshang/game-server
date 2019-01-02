@@ -1384,10 +1384,6 @@ Instance.prototype.updatePlayerMoCard = function(nextUid){
 Instance.prototype.updatePlayerChiCard = function(msg){
     //同步吃 判断玩家是否 有操作 通知吃牌玩家打牌 监听打牌消息
     this.playerUids[msg.uid].playerChiPai(msg.index, msg.opCard);
-    logger.debug("updatePlayerChiCard-------------1");
-    logger.debug("msg:" + JSON.stringify(msg));
-    logger.debug("player:" + JSON.stringify(this.playerUids[msg.uid]));
-    logger.debug("updatePlayerChiCard-------------2");
     //只能判断玩家是否可以杠 不能胡
     this.playerUids[msg.uid].IsCanHu = false;
     if (this.isNotifyPlayerOp(msg.uid,null,false,null) == true){
