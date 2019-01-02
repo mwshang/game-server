@@ -243,7 +243,7 @@ Instance.prototype.addPlayer = function(e) {
 //  setTimeout(function(){
 //      this.message.mjPlayerEnter(e);
 //  }.bind(this), 100);
-    this.emitter.emit('table_player_change', {tableId: this.index, num: this.playerNum, playerUids: this.chairArrBak, isFull: this.isFull()});
+    this.emitter.emit('table_player_change', {tableId: this.index,baseScore:this.Data.baseScore, num: this.playerNum, playerUids: this.chairArrBak, isFull: this.isFull()});
   return true;
 };
 Instance.prototype.registerPlayer = function(e)
@@ -505,7 +505,7 @@ Instance.prototype.gameStart = function()
     }.bind(this), timeDelay * 1000);
 }
 
-//开金牌
+//开金牌(金牌就是赖子)
 Instance.prototype.updateJin = function(){
     var time = 1;
     if(this.Data.isLaiZi >0)
@@ -673,6 +673,8 @@ Instance.prototype.getTableStatus = function(myUid)
     msg["niaoNum"] = this.Data.niaoNum;
     msg["roundsTotal"] = this.Data.roundsTotal;
     msg["isLaiZi"] = this.Data.isLaiZi;
+    //base score
+    msg["baseScore"] = this.Data["baseScore"];
     //msg["menQing"] = this.Data.menQing;
    // msg["isPingHuNoPao"] = this.Data.isPingHuNoPao;
     //msg["isBuBuGao"] = this.Data.isBuBuGao;
@@ -878,8 +880,6 @@ Instance.prototype.initCards2Player = function()
  * */
 Instance.prototype.isNotifyPlayerOp = function(playerUid,pai,isGang,selfUid)
 {
-    //this.isNotifyPlayerOp(null,msg.opCard,false,msg.uid);
-    logger.debug("isNotifyPlayerOp------playerUid:%j,selfUid:%j",playerUid,selfUid);
     var t = false;
     var nextUid = this.getNextUid(selfUid);
     if (playerUid == undefined || playerUid == null){
@@ -918,18 +918,6 @@ Instance.prototype.isNotifyPlayerOp = function(playerUid,pai,isGang,selfUid)
         this.Data.updateHuiFang({type:3});
     }
     return t;
-}
-Instance.prototype.addCurrentOPArr = function(msg,fromUid)
-{
-    if (msg) {
-        logger.debug("addCurrentOPArr------msg:%j",msg);
-        msg["from"] = {"uid":fromUid};
-        this.currentOPArr.push(msg);
-
-        if (!fromUid) {
-            logger.error("addCurrentOPArr nil fromUid:%j",msg);
-        }
-    }
 }
 /*
  通知客户端玩家操作
@@ -1415,10 +1403,6 @@ Instance.prototype.updatePlayerChiCard = function(msg){
 Instance.prototype.updatePlayerPengCard = function(msg){
     //同步碰 判断玩家是否有操作 有则操作 没有则通知玩家打牌
     this.playerUids[msg.uid].playerPengPai(msg.opCard);
-    //logger.debug("updatePlayerPengCard-------------1");
-    //logger.debug("msg:" + JSON.stringify(msg));
-    //logger.debug("player:" + JSON.stringify(this.playerUids[msg.uid]));
-    //logger.debug("updatePlayerPengCard-------------2");
     //只能判断玩家是否可以杠 不能胡
     this.playerUids[msg.uid].IsCanHu = false;
     if (this.isNotifyPlayerOp(msg.uid,null,false,null) == true){

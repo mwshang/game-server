@@ -349,9 +349,7 @@ pro.checkOPCard = function(pai, isGang,isCanChi){
 pro.playerHaiDiPai = function(){
     logger.debug("玩家海底捞月啦当前牌数目:" + this.table.Card.leftPaiCount());
     var pai = this.table.Card.qiPai();
-    // mwshang
-    pai["from"] = {"uid":this.uid};
-    // end
+
     this.paiLast = pai;
     var hupai = this.CheckHu_HDLY(pai,true);
     var isPlayerHu = false;
