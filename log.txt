@@ -1,0 +1,574 @@
+[32m[2018-12-26 14:09:40.298] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "master-server-1"
+
+[32m[2018-12-26 14:09:40.576] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\protocol\mqtt\mqttServer.js: [MqttServer] [39m[MqttServer] listen on 5005
+[32m[2018-12-26 14:09:40.579] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3360,frontend=true,serverType=connector locally
+[32m[2018-12-26 14:09:40.583] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=connector-server-2,host=127.0.0.1,port=3151,clientPort=3361,frontend=true,serverType=connector locally
+[32m[2018-12-26 14:09:40.585] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=chat-server-1,host=127.0.0.1,port=3450,serverType=chat locally
+[32m[2018-12-26 14:09:40.586] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+
+[32m[2018-12-26 14:09:40.593] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=hall-server-1,host=127.0.0.1,port=3850,serverType=hall locally
+
+[32m[2018-12-26 14:09:40.594] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=http-server-1,host=127.0.0.1,port=4050,serverType=http locally
+
+[32m[2018-12-26 14:09:40.596] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=wuhan-server-1,host=127.0.0.1,port=3950,serverType=wuhan locally
+
+[32m[2018-12-26 14:09:40.606] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mExecuting C:\Program Files\nodejs\node.exe E:\luxuan\server\game-server-git\game-server\app.js,env=development,id=wuhan-server-2,host=127.0.0.1,port=3951,serverType=wuhan locally
+[32m[2018-12-26 14:09:40.609] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:40.738] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"id":"master-server-1","host":"127.0.0.1","port":5005,"pid":17480}
+
+[32m[2018-12-26 14:09:40.742] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"master-server-1" enter after start...
+
+[32m[2018-12-26 14:09:40.743] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"master-server-1" finish start
+
+[32m[2018-12-26 14:09:40.744] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"master-server-1" startup in 438 ms
+
+[36m[2018-12-26 14:09:40.744] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER master-server-1 master
+
+[32m[2018-12-26 14:09:41.091] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+
+[32m[2018-12-26 14:09:41.100] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-2"
+
+[32m[2018-12-26 14:09:41.096] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "hall-server-1"
+
+[32m[2018-12-26 14:09:41.147] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "auth-server-1"
+
+[32m[2018-12-26 14:09:41.156] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "wuhan-server-2"
+
+[32m[2018-12-26 14:09:41.200] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "http-server-1"
+
+[32m[2018-12-26 14:09:41.200] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "chat-server-1"
+
+[32m[2018-12-26 14:09:41.228] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "wuhan-server-1"
+
+[31m[2018-12-26 14:09:45.606] [ERROR] yiqigame-log - [39m[31m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mwuhan create
+
+[36m[2018-12-26 14:09:45.607] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mhall create
+[31m[2018-12-26 14:09:45.609] [ERROR] yiqigame-log - [39m[31m\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js: [E:\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js] [39mpackTable Init
+[36m[2018-12-26 14:09:45.610] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39mhall test 2:function (setting) {
+  return this.settings[setting];
+}
+[36m[2018-12-26 14:09:45.611] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39mhall reLoadCfg 2:E:\luxuan\server\game-server-git\game-server/config/data/activeCfg.json
+[36m[2018-12-26 14:09:45.611] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39m{
+    "shareLink":12
+}
+[36m[2018-12-26 14:09:45.611] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39mhall reLoadCfg 3:{"shareLink":12}
+[36m[2018-12-26 14:09:45.612] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hallTimer.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hallTimer.js] [39m大厅定时器启动
+
+[31m[2018-12-26 14:09:45.608] [ERROR] yiqigame-log - [39m[31m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mwuhan create
+
+[32m[2018-12-26 14:09:45.897] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 5005
+
+[32m[2018-12-26 14:09:45.898] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:45.948] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":3450,"serverType":"chat","pid":24056}
+
+[36m[2018-12-26 14:09:45.951] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":3450,"serverType":"chat","pid":24056}}
+
+[32m[2018-12-26 14:09:45.965] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"chat-server-1" enter after start...
+
+[32m[2018-12-26 14:09:45.967] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"chat-server-1" finish start
+
+[32m[2018-12-26 14:09:45.967] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"chat-server-1" startup in 4758 ms
+
+[36m[2018-12-26 14:09:45.968] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER chat-server-1 chat
+
+[36m[2018-12-26 14:09:46.090] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":7620}
+
+[36m[2018-12-26 14:09:46.091] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":7620}}
+
+[36m[2018-12-26 14:09:46.092] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":7620}}
+
+[32m[2018-12-26 14:09:46.098] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"auth-server-1" enter after start...
+
+[32m[2018-12-26 14:09:46.104] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"auth-server-1" finish start
+
+[32m[2018-12-26 14:09:46.104] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"auth-server-1" startup in 494 ms
+
+[36m[2018-12-26 14:09:46.105] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER auth-server-1 auth
+
+[36m[2018-12-26 14:09:46.313] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mwuhan create
+
+[32m[2018-12-26 14:09:49.867] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "hall", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:49.913] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3850,"serverType":"hall","pid":24552}
+
+[36m[2018-12-26 14:09:49.917] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3850,"serverType":"hall","pid":24552}}
+
+[36m[2018-12-26 14:09:49.916] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3850,"serverType":"hall","pid":24552}}
+
+[36m[2018-12-26 14:09:49.917] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3850,"serverType":"hall","pid":24552}}
+
+[32m[2018-12-26 14:09:49.939] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"hall-server-1" enter after start...
+
+[32m[2018-12-26 14:09:49.940] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"hall-server-1" finish start
+
+[32m[2018-12-26 14:09:49.940] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"hall-server-1" startup in 3626 ms
+
+[36m[2018-12-26 14:09:49.941] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER hall-server-1 hall
+
+[31m[2018-12-26 14:09:50.000] [ERROR] wuhan-log - [39m[31m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mWuHanRoom Init
+
+[31m[2018-12-26 14:09:50.000] [ERROR] wuhan-log - [39m[31m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mWuHanRoom Init
+
+[36m[2018-12-26 14:09:50.547] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiBase
+
+[36m[2018-12-26 14:09:50.548] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiBase
+
+[36m[2018-12-26 14:09:50.573] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChangChun
+
+[36m[2018-12-26 14:09:50.573] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChangChun
+
+[32m[2018-12-26 14:09:50.745] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+
+[32m[2018-12-26 14:09:50.747] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:50.789] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChangSha
+
+[36m[2018-12-26 14:09:50.789] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChangSha
+
+[36m[2018-12-26 14:09:50.801] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}
+
+[36m[2018-12-26 14:09:50.805] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}}
+
+[36m[2018-12-26 14:09:50.805] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}}
+
+[36m[2018-12-26 14:09:50.805] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}}
+
+[36m[2018-12-26 14:09:50.807] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[hall-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}}
+
+[36m[2018-12-26 14:09:50.810] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChiZhou
+
+[36m[2018-12-26 14:09:50.810] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiChiZhou
+
+[36m[2018-12-26 14:09:50.812] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiDouDiZhu
+[36m[2018-12-26 14:09:50.813] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiDouniu
+[36m[2018-12-26 14:09:50.814] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiFuYang
+
+[36m[2018-12-26 14:09:50.812] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiDouDiZhu
+[36m[2018-12-26 14:09:50.813] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiDouniu
+[36m[2018-12-26 14:09:50.814] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiFuYang
+
+[36m[2018-12-26 14:09:50.823] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiFuZhou
+
+[36m[2018-12-26 14:09:50.824] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiFuZhou
+
+[36m[2018-12-26 14:09:50.828] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}
+
+[36m[2018-12-26 14:09:50.829] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiJiangShan
+[36m[2018-12-26 14:09:50.831] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiJinYun
+[36m[2018-12-26 14:09:50.832] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiMjBase
+[36m[2018-12-26 14:09:50.833] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiNanPing
+
+[36m[2018-12-26 14:09:50.829] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiJiangShan
+[36m[2018-12-26 14:09:50.832] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiJinYun
+[36m[2018-12-26 14:09:50.833] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiMjBase
+[36m[2018-12-26 14:09:50.835] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiNanPing
+
+[36m[2018-12-26 14:09:50.836] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}}
+
+[36m[2018-12-26 14:09:50.831] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}}
+
+[36m[2018-12-26 14:09:50.833] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}}
+
+[36m[2018-12-26 14:09:50.834] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[hall-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}}
+
+[36m[2018-12-26 14:09:50.842] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mSELECT * FROM qp_packautotable  null
+[36m[2018-12-26 14:09:50.845] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\packAutoTableDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\packAutoTableDao.js] [39mpro.loadAll res
+
+[36m[2018-12-26 14:09:50.846] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js: [E:\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js] [39mcreateList 0
+
+[36m[2018-12-26 14:09:50.847] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js: [E:\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js] [39m加载自动桌子完成：[] []
+
+[32m[2018-12-26 14:09:50.841] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-2" enter after start...
+
+[32m[2018-12-26 14:09:50.855] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-2" finish start
+
+[32m[2018-12-26 14:09:50.856] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-2" startup in 1368 ms
+
+[36m[2018-12-26 14:09:50.856] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER connector-server-2 connector
+
+[36m[2018-12-26 14:09:50.858] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-2] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientPort":3360,"frontend":"true","serverType":"connector","pid":20864}}
+
+[32m[2018-12-26 14:09:50.863] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+
+[32m[2018-12-26 14:09:50.867] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+
+[32m[2018-12-26 14:09:50.867] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 1380 ms
+
+[36m[2018-12-26 14:09:50.869] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER connector-server-1 connector
+
+[36m[2018-12-26 14:09:51.031] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiNingHai
+
+[36m[2018-12-26 14:09:51.031] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiNingHai
+
+[36m[2018-12-26 14:09:51.051] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiPaoDeKuai
+
+[36m[2018-12-26 14:09:51.051] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiPaoDeKuai
+
+[36m[2018-12-26 14:09:51.052] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mSELECT * FROM `qp_notice` AS b WHERE NOT EXISTS(SELECT 1 FROM qp_notice WHERE `type`= b.`type`AND b.`createdtime`<`createdtime` ) AND `type` IN (11, 12) null
+
+[36m[2018-12-26 14:09:51.054] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\noticeDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\noticeDao.js] [39mgetNoticeList null []
+
+[36m[2018-12-26 14:09:51.066] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiPaoHuZi
+
+[36m[2018-12-26 14:09:51.066] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiPaoHuZi
+
+[36m[2018-12-26 14:09:51.098] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDong
+
+[36m[2018-12-26 14:09:51.098] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDong
+
+[36m[2018-12-26 14:09:51.099] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDongBD
+
+[36m[2018-12-26 14:09:51.099] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDongBD
+
+[36m[2018-12-26 14:09:51.101] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDongLJC
+
+[36m[2018-12-26 14:09:51.101] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQiDongLJC
+
+[36m[2018-12-26 14:09:51.102] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQuanZhou
+
+[36m[2018-12-26 14:09:51.102] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiQuanZhou
+
+[36m[2018-12-26 14:09:51.103] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiSangong
+
+[36m[2018-12-26 14:09:51.104] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiSangong
+
+[36m[2018-12-26 14:09:51.105] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiShanXi
+
+[36m[2018-12-26 14:09:51.105] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiShanXi
+
+[36m[2018-12-26 14:09:51.108] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiShiSanShui
+
+[36m[2018-12-26 14:09:51.108] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiShiSanShui
+
+[36m[2018-12-26 14:09:51.109] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiWeiNan
+
+[36m[2018-12-26 14:09:51.109] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiWeiNan
+
+[36m[2018-12-26 14:09:51.111] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiXueZhan
+
+[36m[2018-12-26 14:09:51.111] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiXueZhan
+
+[36m[2018-12-26 14:09:51.113] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiYuYao
+
+[36m[2018-12-26 14:09:51.114] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiYuYao
+
+[36m[2018-12-26 14:09:51.116] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiZaoZhuang
+
+[36m[2018-12-26 14:09:51.117] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js] [39mAIManagerInit:{"aiType":"aiChangSha","brainService":{"brains":{}}}
+
+[36m[2018-12-26 14:09:51.117] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\ai.js] [39mRebotName = aiZaoZhuang
+
+[36m[2018-12-26 14:09:51.117] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mserverId: wuhan-server-2
+[36m[2018-12-26 14:09:51.117] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mserverTableBaseId: 200000
+[36m[2018-12-26 14:09:51.118] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js] [39mAIManagerInit:{"aiType":"aiChangSha","brainService":{"brains":{}}}
+[36m[2018-12-26 14:09:51.118] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mserverId: wuhan-server-1
+[36m[2018-12-26 14:09:51.119] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js: [E:\luxuan\server\game-server-git\game-server\app\domain\wuhan\room.js] [39mserverTableBaseId: 100000
+
+[32m[2018-12-26 14:09:51.312] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+
+[32m[2018-12-26 14:09:51.313] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "wuhan", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:51.360] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}
+
+[36m[2018-12-26 14:09:51.362] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+
+[36m[2018-12-26 14:09:51.361] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+
+[36m[2018-12-26 14:09:51.361] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+[36m[2018-12-26 14:09:51.361] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[hall-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+
+[36m[2018-12-26 14:09:51.362] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-2] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+
+[36m[2018-12-26 14:09:51.364] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}
+
+[36m[2018-12-26 14:09:51.364] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}}
+[36m[2018-12-26 14:09:51.370] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+
+[36m[2018-12-26 14:09:51.372] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+
+[36m[2018-12-26 14:09:51.366] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+
+[36m[2018-12-26 14:09:51.366] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+
+[36m[2018-12-26 14:09:51.368] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-2] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+[36m[2018-12-26 14:09:51.371] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[hall-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}}
+
+[32m[2018-12-26 14:09:51.399] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-2" enter after start...
+[32m[2018-12-26 14:09:51.400] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-1" enter after start...
+[32m[2018-12-26 14:09:51.400] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-2" finish start
+[32m[2018-12-26 14:09:51.401] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-1" finish start
+[32m[2018-12-26 14:09:51.401] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-2" startup in 266 ms
+[32m[2018-12-26 14:09:51.401] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"wuhan-server-1" startup in 266 ms
+[36m[2018-12-26 14:09:51.402] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER wuhan-server-2 wuhan
+[36m[2018-12-26 14:09:51.402] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER wuhan-server-1 wuhan
+
+[36m[2018-12-26 14:09:51.563] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from qp_player where GM >= 100 limit 50 null
+
+[36m[2018-12-26 14:09:51.564] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js] [39m初始化机器人完成:17
+
+[36m[2018-12-26 14:09:51.565] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from qp_player where GM >= 100 limit 50 null
+
+[36m[2018-12-26 14:09:51.566] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js: [E:\luxuan\server\game-server-git\game-server\app\domain\ai\service\aiManager.js] [39m初始化机器人完成:17
+
+[32m[2018-12-26 14:09:51.667] [INFO] pomelo-admin - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\consoleService.js: [ConsoleService] [39mtry to connect master: "http", "127.0.0.1", 5005
+
+[36m[2018-12-26 14:09:51.706] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive add server event, with server: {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}
+
+[36m[2018-12-26 14:09:51.708] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[master-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[36m[2018-12-26 14:09:51.707] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[36m[2018-12-26 14:09:51.708] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-2] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[36m[2018-12-26 14:09:51.709] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[wuhan-server-2] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[36m[2018-12-26 14:09:51.709] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[hall-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+[36m[2018-12-26 14:09:51.710] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[wuhan-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[36m[2018-12-26 14:09:51.710] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[auth-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+[36m[2018-12-26 14:09:51.711] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}}
+
+[32m[2018-12-26 14:09:51.741] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"http-server-1" enter after start...
+
+[32m[2018-12-26 14:09:51.743] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"http-server-1" finish start
+
+[32m[2018-12-26 14:09:51.743] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\application.js] [39m"http-server-1" startup in 628 ms
+
+[36m[2018-12-26 14:09:51.744] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app.js: [E:\luxuan\server\game-server-git\game-server\app.js] [39mpomelo.events.START_SERVER http-server-1 http
+
+[32m[2018-12-26 14:09:51.745] [INFO] pomelo - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\watchdog.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\watchdog.js] [39mall servers startup in 11439 ms
+
+[36m[2018-12-26 14:09:51.747] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39mserver start all!
+
+[36m[2018-12-26 14:15:37.392] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\http\route\httpRoute.js: [E:\luxuan\server\game-server-git\game-server\app\servers\http\route\httpRoute.js] [39mqp_login
+[36m[2018-12-26 14:15:37.393] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\http\route\httpRoute.js: [E:\luxuan\server\game-server-git\game-server\app\servers\http\route\httpRoute.js] [39m[object Object]
+
+[36m[2018-12-26 14:15:37.393] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\http\httpRegLogin.js: [E:\luxuan\server\game-server-git\game-server\app\domain\http\httpRegLogin.js] [39m登陆消息:{"name":"chen3","password":"chen3","regType":"1","appId":"com.qp.hall"}
+
+[36m[2018-12-26 14:15:37.467] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from qp_player where userName = ? null
+
+[36m[2018-12-26 14:15:37.607] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+
+[36m[2018-12-26 14:15:37.642] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entryConnector","body":{"uid":100006,"token":"4876aacc87ec2e42fd06f8e345bf52839416fa7d81a5db18e82dde27ed16fe55"},"compressGzip":0}
+
+[36m[2018-12-26 14:15:37.717] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from qp_player where uid = ? null
+
+[36m[2018-12-26 14:15:37.718] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\auth\remote\authRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\auth\remote\authRemote.js] [39mauth ok
+
+[36m[2018-12-26 14:15:37.759] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39msession on [connector-server-1] bind with uid: 100006
+
+[36m[2018-12-26 14:15:37.759] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js: [E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js] [39msession.bind undefined
+
+[36m[2018-12-26 14:15:37.761] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js: [E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js] [39m当前用户ServerId:connector-server-1
+
+[36m[2018-12-26 14:15:37.799] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js: [E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js] [39mchatRemote.add null 200
+
+[36m[2018-12-26 14:15:37.835] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\hall.js] [39mhall-> initDailyTask 100006
+
+[36m[2018-12-26 14:15:37.837] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\playerDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\playerDao.js] [39m更新玩家信息:100006  key:"lastLoginTime"
+
+[36m[2018-12-26 14:15:37.838] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\playerDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\playerDao.js] [39mupdatePlayerByKey_args:["2018-12-26T14:15:37+08:00",100006]
+
+[36m[2018-12-26 14:15:37.840] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js] [39mserverId: wuhan-server-2 wuhan
+
+[36m[2018-12-26 14:15:37.843] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js] [39mserverId: wuhan-server-1 wuhan
+
+[36m[2018-12-26 14:15:37.876] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js] [39m监测玩家是否在游戏中 wuhan-server-2
+
+[36m[2018-12-26 14:15:37.876] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js] [39m监测玩家是否在游戏中时没获取到玩家在哪个房间
+
+[36m[2018-12-26 14:15:37.877] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js] [39m监测玩家是否在游戏中 wuhan-server-1
+
+[36m[2018-12-26 14:15:37.877] [DEBUG] wuhan-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\wuhan\remote\gRemote.js] [39m监测玩家是否在游戏中时没获取到玩家在哪个房间
+
+[36m[2018-12-26 14:15:37.894] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mupdate qp_player set lastLoginTime = ? where uid = ? { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '2018-12-26T14:15:37+08:00' for column 'lastLoginTime' at row 1
+    at Query.Sequence._packetToError (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js:42:11
+    at Ping.onOperationComplete [as _callback] (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:103:28)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: 'Incorrect datetime value: \'2018-12-26T14:15:37+08:00\' for column \'lastLoginTime\' at row 1',
+  sqlState: '22007',
+  index: 0,
+  sql: 'update qp_player set lastLoginTime = \'2018-12-26T14:15:37+08:00\' where uid = 100006' }
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '2018-12-26T14:15:37+08:00' for column 'lastLoginTime' at row 1
+    at Query.Sequence._packetToError (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js:42:11
+    at Ping.onOperationComplete [as _callback] (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\luxuan\server\game-server-git\game-server\node_modules\mysql\lib\Connection.js:103:28)
+
+[31m[2018-12-26 14:15:37.896] [ERROR] database-log - [39m[31m\luxuan\server\game-server-git\game-server\app\dao\playerDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\playerDao.js] [39mError: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '2018-12-26T14:15:37+08:00' for column 'lastLoginTime' at row 1
+
+[36m[2018-12-26 14:15:37.896] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mapping\playerSync.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mapping\playerSync.js] [39mER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '2018-12-26T14:15:37+08:00' for column 'lastLoginTime' at row 1
+
+[36m[2018-12-26 14:15:37.897] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js] [39mnull [ [ 200, { gameing: 0, serverId: 'wuhan-server-2' } ],
+  [ 200, { gameing: 0, serverId: 'wuhan-server-1' } ] ]
+
+[36m[2018-12-26 14:15:37.898] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js] [39menterPackHall
+
+[36m[2018-12-26 14:15:37.899] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js] [39m[hall-server-1] channelService sendMessageByGroup route: hallLogin, msg: {"code":200,"arenaId":0}, groups: {"connector-server-1":[100006]}, opts: {}
+
+[36m[2018-12-26 14:15:37.902] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js: [E:\luxuan\server\game-server-git\game-server\app\servers\hall\remote\msgRemote.js] [39m新玩家进入游戏大厅,当前大厅人数:1
+
+[36m[2018-12-26 14:15:37.926] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js: [E:\luxuan\server\game-server-git\game-server\app\servers\connector\handler\entryHandler.js] [39mgameId:
+
+[36m[2018-12-26 14:15:37.928] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entryConnector, msg: {"code":200,"player":{"uid":100006,"deviceID":"昌立辉","regType":"1","userName":"chen3","password":"chen3","nickName":"6YGH6KeB","userSex":"2","headUrl":"http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLQnGXrSPplaIzbpYNiaF5rrOMJuJgsx6vZT66ug9l3157RVBoX8DJdfI9Z2kYWxO1TIiavEVBibgqIg/0","vipLevel":30,"coinNum":1000,"gemNum":7666,"scoreNum":200,"goldNum":14237,"charm":0,"firstPaid":"","phoneNumber":"0","loginCount":1,"registerTime":"2016-07-31T10:12:47.000Z","playedTime":285,"clientType":0,"GM":0,"agentCode":"","rootAgent":0,"rewardGemNum":0,"locked":0,"province":null,"city":null,"lastLoginTime":"2018-11-18T01:46:04.000Z","offLineTime":null,"curVersion":null,"wxAccount":" gt5gt","ip":"::ffff:192.168.220.1"},"gameing":0,"serverId":""}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+
+[36m[2018-12-26 14:15:37.938] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js] [39m[connector-server-1] pushMessage uids: [100006], msg: {"code":200,"arenaId":0}, sids: [1]
+
+[36m[2018-12-26 14:15:37.938] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: null, route: hallLogin, msg: {"code":200,"arenaId":0}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+
+[36m[2018-12-26 14:15:37.985] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from  qp_packplayer WHERE uid = ? and audit=1; null
+[36m[2018-12-26 14:15:37.985] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\packPlayerDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\packPlayerDao.js] [39mgetPlayerPackIds null 0
+[36m[2018-12-26 14:15:37.985] [DEBUG] yiqigame-log - [39m[36m\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js: [E:\luxuan\server\game-server-git\game-server\app\domain\pack\packTable.js] [39m没有加入群
+
+[36m[2018-12-26 14:15:37.990] [DEBUG] database-log - [39m[36m\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js: [E:\luxuan\server\game-server-git\game-server\app\dao\mysql\mysql.js] [39mselect * from qp_active where uid = ? null
+
+[31m[2018-12-26 14:15:37.991] [ERROR] database-log - [39m[31m\luxuan\server\game-server-git\game-server\app\dao\activeDao.js: [E:\luxuan\server\game-server-git\game-server\app\dao\activeDao.js] [39mgetActiveByUid not exist
+
+[31m[2018-12-26 14:15:37.991] [ERROR] yiqigame-log - [39m[31m\luxuan\server\game-server-git\game-server\app\domain\hall\active.js: [E:\luxuan\server\game-server-git\game-server\app\domain\hall\active.js] [39m没有找到活动相关信息:100006
+
+[36m[2018-12-26 14:15:40.902] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js] [39m[hall-server-1] channelService sendMessageByGroup route: hallMessageNotify, msg: {"hallMessageNotify":{}}, groups: {"connector-server-1":[100006]}, opts: {}
+
+[36m[2018-12-26 14:15:40.903] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\service\channelService.js] [39m[hall-server-1] channelService sendMessageByGroup route: hallIntervalMessageNotify, msg: {"hallMessageNotify":{}}, groups: {"connector-server-1":[100006]}, opts: {}
+
+[36m[2018-12-26 14:15:40.911] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js] [39m[connector-server-1] pushMessage uids: [100006], msg: {"hallMessageNotify":{}}, sids: [1]
+
+[36m[2018-12-26 14:15:40.911] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: null, route: hallMessageNotify, msg: {"hallMessageNotify":{}}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+
+[36m[2018-12-26 14:15:40.911] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js] [39m[connector-server-1] pushMessage uids: [100006], msg: {"hallMessageNotify":{}}, sids: [1]
+
+[36m[2018-12-26 14:15:40.911] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: null, route: hallIntervalMessageNotify, msg: {"hallMessageNotify":{}}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+
+[36m[2018-12-26 14:38:14.509] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect wuhan-server-2 wuhan {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-2","host":"127.0.0.1","port":3951,"serverType":"wuhan","pid":17516}
+[36m[2018-12-26 14:38:14.511] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: wuhan-server-2, type: wuhan
+
+[32m[2018-12-26 14:38:14.511] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[wuhan],[wuhan-server-2],[1545806294511],[disconnect]
+
+[31m[2018-12-26 14:38:14.506] [ERROR] pomelo-rpc - [39m[31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket hall-server-1 is error, remote server wuhan-server-2 host: 127.0.0.1, port: 3951
+
+[33m[2018-12-26 14:38:14.517] [WARN] pomelo - [39m[33m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mchild process exit with error, error code: 3221225786, executed command: C:\Program Files\nodejs\node.exe
+
+[36m[2018-12-26 14:38:14.517] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-2"}
+
+[36m[2018-12-26 14:38:14.514] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mhttp-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-2"}
+
+[36m[2018-12-26 14:38:14.515] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-2"}
+
+[36m[2018-12-26 14:38:14.516] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-2 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-2"}
+
+[36m[2018-12-26 14:38:14.566] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect chat-server-1 chat {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":3450,"serverType":"chat","pid":24056}
+
+[36m[2018-12-26 14:38:14.566] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: chat-server-1, type: chat
+
+[32m[2018-12-26 14:38:14.566] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[chat],[chat-server-1],[1545806294566],[disconnect]
+
+[36m[2018-12-26 14:38:14.568] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect wuhan-server-1 wuhan {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"wuhan-server-1","host":"127.0.0.1","port":3950,"serverType":"wuhan","pid":8420}
+
+[36m[2018-12-26 14:38:14.568] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: wuhan-server-1, type: wuhan
+
+[32m[2018-12-26 14:38:14.569] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[wuhan],[wuhan-server-1],[1545806294569],[disconnect]
+
+[31m[2018-12-26 14:38:14.566] [ERROR] pomelo-rpc - [39m[31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: 3450
+[36m[2018-12-26 14:38:14.567] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"chat-server-1"}
+
+[36m[2018-12-26 14:38:14.570] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"chat-server-1"}
+
+[36m[2018-12-26 14:38:14.570] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-1"}
+
+[36m[2018-12-26 14:38:14.569] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-2 receive removeServer signal: {"action":"removeServer","id":"chat-server-1"}
+[36m[2018-12-26 14:38:14.571] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-2 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-1"}
+
+[31m[2018-12-26 14:38:14.570] [ERROR] pomelo-rpc - [39m[31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server hall-server-1 host: 127.0.0.1, port: 3850
+
+[36m[2018-12-26 14:38:14.571] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect hall-server-1 hall {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"hall-server-1","host":"127.0.0.1","port":3850,"serverType":"hall","pid":24552}
+
+[36m[2018-12-26 14:38:14.572] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: hall-server-1, type: hall
+
+[32m[2018-12-26 14:38:14.572] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[hall],[hall-server-1],[1545806294572],[disconnect]
+
+[36m[2018-12-26 14:38:14.574] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"hall-server-1"}
+
+[33m[2018-12-26 14:38:14.575] [WARN] pomelo - [39m[33m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mchild process exit with error, error code: 3221225786, executed command: C:\Program Files\nodejs\node.exe
+
+[36m[2018-12-26 14:38:14.571] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-1"}
+[36m[2018-12-26 14:38:14.573] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"hall-server-1"}
+
+[33m[2018-12-26 14:38:14.576] [WARN] pomelo - [39m[33m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mchild process exit with error, error code: 3221225786, executed command: C:\Program Files\nodejs\node.exe
+
+[33m[2018-12-26 14:38:14.577] [WARN] pomelo - [39m[33m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mchild process exit with error, error code: 3221225786, executed command: C:\Program Files\nodejs\node.exe
+
+[36m[2018-12-26 14:38:14.575] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-2 receive removeServer signal: {"action":"removeServer","id":"hall-server-1"}
+
+[36m[2018-12-26 14:38:14.575] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mhttp-server-1 receive removeServer signal: {"action":"removeServer","id":"chat-server-1"}
+[36m[2018-12-26 14:38:14.577] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mhttp-server-1 receive removeServer signal: {"action":"removeServer","id":"wuhan-server-1"}
+
+[36m[2018-12-26 14:38:14.579] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mhttp-server-1 receive removeServer signal: {"action":"removeServer","id":"hall-server-1"}
+
+[36m[2018-12-26 14:38:14.591] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect auth-server-1 auth {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":7620}
+
+[36m[2018-12-26 14:38:14.591] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: auth-server-1, type: auth
+
+[32m[2018-12-26 14:38:14.592] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[auth],[auth-server-1],[1545806294592],[disconnect]
+
+[31m[2018-12-26 14:38:14.591] [ERROR] pomelo-rpc - [39m[31m\luxuan\server\game-server-git\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js: [mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server auth-server-1 host: 127.0.0.1, port: 3650
+
+[36m[2018-12-26 14:38:14.595] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"auth-server-1"}
+
+[36m[2018-12-26 14:38:14.596] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-2 receive removeServer signal: {"action":"removeServer","id":"auth-server-1"}
+
+[36m[2018-12-26 14:38:14.597] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"auth-server-1"}
+
+[33m[2018-12-26 14:38:14.600] [WARN] pomelo - [39m[33m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\starter.js] [39mchild process exit with error, error code: 3221225786, executed command: C:\Program Files\nodejs\node.exe
+
+[36m[2018-12-26 14:38:14.605] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect connector-server-2 connector {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientPort":3361,"frontend":"true","serverType":"connector","pid":1956}
+
+[36m[2018-12-26 14:38:14.606] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: connector-server-2, type: connector
+
+[32m[2018-12-26 14:38:14.606] [INFO] crash-log - [39m[32m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\master\master.js] [39m[connector],[connector-server-2],[1545806294606],[disconnect]
+
+[36m[2018-12-26 14:38:14.608] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mmaster-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-2"}
+
+[36m[2018-12-26 14:38:14.608] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-2"}
+
+[36m[2018-12-26 14:38:14.609] [DEBUG] pomelo-admin - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo-admin\lib\master\masterSocket.js: [MasterSocket] [39mdisconnect http-server-1 http {"main":"E:\\luxuan\\server\\game-server-git\\game-server\\app.js","env":"development","id":"http-server-1","host":"127.0.0.1","port":4050,"serverType":"http","pid":10616}
+
+[36m[2018-12-26 14:38:14.610] [DEBUG] pomelo - [39m[36m\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js: [E:\luxuan\server\game-server-git\game-server\node_modules\pomelo\lib\modules\masterwatcher.js] [39mmasterwatcher receive remove server event, with server: http-server-1, type: http
+

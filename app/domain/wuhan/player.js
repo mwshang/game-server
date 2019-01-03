@@ -734,6 +734,7 @@ pro.gangHandScore = function()
 //cxp 获取明杠番数
 pro.mingGangScore = function(){
     var pan = 0;
+    //origin  1暗杠  2 别人打的杠 3明杠 4固定杠 5赖子杠 pai为null表示自己摸牌
     for(var i = 0;i<this.paiDest.length;i++)
     {
         if(this.paiDest[i]["type"] == "gang")
@@ -755,7 +756,7 @@ pro.mingGangScore = function(){
 //获取暗杠分数，包含赖子杠
 pro.anGangScore = function(noLaizi){
     var pan = 0;
-
+    //origin  1暗杠  2 别人打的杠 3明杠 4固定杠 5赖子杠 pai为null表示自己摸牌
     if(noLaizi == true){
 
         for (var i = 0; i < this.paiDest.length; i++) {
