@@ -468,6 +468,7 @@ pro.calScore = function(){//计算积分 flag:mwshang
         fangPaoUid = this.capHuScore(players,huPlayerUids);
         logger.debug("放炮者UID：" + fangPaoUid);
         logger.debug("胡牌UID：%j", huPlayerUids);
+        logger.debug("调用capHuScore接口之后打印");
 
         if(huPlayerUids.length > 0){
             //计算不开口罚分
@@ -873,6 +874,8 @@ pro.capHuScore = function(players, huPlayerUids){
                                     players[p]["winScore"] -= diScore;
                                     players[p]["diScore"] = diScore;
                                     players[p]["fanShu"] = loseKaiKuNum;
+                                    // logger.debug("capHuScore---uid:%j----loseUid:%j----diScore:%j---%j",uid,loseUid,diScore,this.table.PlayerUids[loseUid]);
+                                    break
                                 }
                             }
 
@@ -1045,20 +1048,31 @@ pro.capBaoPaiScore = function(players,huPlayerUids){
                 this.baoPaiAddScore(huPlayer.uid,lastOpPlayer.uid,players);
             } else {//放炮者承包
                 isBaoPai = true;
+                var baoPaiUid = lastOpPlayer.uid;
+                var huUid = huPlayer.uid;
+                var lastOpPlayerInfo = null;
+                var huPlayerInfo = null;
+
+
                 for (var p = 0; p < players.length; p++)
                 {
-                    if (players[p]["uid"] != lastOpPlayer.uid && players[p]["uid"] != huPlayer.uid)
-                    {
+                    var uid = players[p]["uid"];
+
+                    if (uid == baoPaiUid) {
+                        lastOpPlayerInfo = players[p];
+                    }else if (uid == huUid) {
+                        huPlayerInfo = players[p];
+                    }else {
                         players[p]["winScore"] = 0;
                         players[p]["diScore"] = 0;
-                    }
-                    lastOpPlayer["winScore"] = -lastOpPlayer["diScore"] * 3;
-                    huPlayer["winScore"] = -lastOpPlayer["winScore"];
+                    }       
                 }
-            }
+                lastOpPlayerInfo["winScore"] = -lastOpPlayerInfo["diScore"] * 3;
+                lastOpPlayer["winScore"] = lastOpPlayerInfo["winScore"];
+                huPlayer["winScore"] = -lastOpPlayer["winScore"];
+                huPlayerInfo["winScore"] = huPlayer["winScore"];
+            }           
             
-            
-            logger.debug("全求人包牌%j  包牌者id %j ",huPlayer.uid,lastOpPlayer.uid);
         }
     }
 
@@ -1071,6 +1085,7 @@ pro.capBaoPaiScore = function(players,huPlayerUids){
     }
 
 }
+
 
 pro.baoPaiAddScore = function(huUid,baoPaiUid,players){
     var otherScore = 0;
