@@ -468,7 +468,6 @@ pro.calScore = function(){//计算积分 flag:mwshang
         fangPaoUid = this.capHuScore(players,huPlayerUids);
         logger.debug("放炮者UID：" + fangPaoUid);
         logger.debug("胡牌UID：%j", huPlayerUids);
-        logger.debug("调用capHuScore接口之后打印");
 
         if(huPlayerUids.length > 0){
             //计算不开口罚分
@@ -987,7 +986,8 @@ pro.capBaoPaiScore = function(players,huPlayerUids){
 
     var huPlayer = this.table.PlayerUids[huPlayerUids[0]["uid"]];
 
-    if(huPlayer.isHuExist(Const.WuHanHuType.QingYiSe) || huPlayer.isHuExist(Const.WuHanHuType.JiangJiangHu))
+    //if(huPlayer.isHuExist(Const.WuHanHuType.QingYiSe) || huPlayer.isHuExist(Const.WuHanHuType.JiangJiangHu))
+    if(huPlayer.isHuExist(Const.WuHanHuType.JiangJiangHu))
     {
         //if(huPlayer.baoPaiUid != -1 && huPlayer.baoPaiUid != this.table.LastOP["lastUid"])
         if(huPlayer.baoPaiUid != -1)
