@@ -60,12 +60,12 @@ var playerHuiFangDao = module.exports;
      if(!msg.pid)
          msg.pid=0;
 
-      if (msg.baseScore == null || msg.baseScore == undefined) {
-          msg.baseScore = 0
+      if (!msg["baseScore"]) {
+          msg["baseScore"] = 0
       }
 
     var sql = 'insert into qp_playerHuiFang (uid1,uid2,uid3,uid4,uid5,uid6,uid7,uid8,fangHao,record,type,serverType,fangZhu,daiKai,pid,baseScore) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)';
-    var args = [msg.uid1,msg.uid2,msg.uid3,msg.uid4,msg.uid5,msg.uid6,msg.uid7,msg.uid8,msg.fangHao,msgRecord,msg.type,msg.serverType,msg.fangZhu,msg.daiKai,msg.pid,msg.baseScore];
+    var args = [msg.uid1,msg.uid2,msg.uid3,msg.uid4,msg.uid5,msg.uid6,msg.uid7,msg.uid8,msg.fangHao,msgRecord,msg.type,msg.serverType,msg.fangZhu,msg.daiKai,msg.pid,msg["baseScore"]];
     pomelo.app.get('dbclient').insert(sql, args, function(err, res) {
         if (err) {
             logger.error('create playerRecordDao failed! ' + err.stack);
@@ -255,7 +255,7 @@ playerHuiFangDao.createTable = function(cb) {
     sql += "uid6 int(32) unsigned NOT NULL DEFAULT '0',";
     sql += "uid7 int(32) unsigned NOT NULL DEFAULT '0',";
     sql += "uid8 int(32) unsigned NOT NULL DEFAULT '0',";
-    sql += "baseScore int(32) unsigned NOT NULL DEFAULT '1',";
+    sql += "baseScore float(6,2) unsigned NOT NULL DEFAULT '1',";
     sql += "record varchar(20000) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '{}',";
     sql += "type int(10) unsigned NOT NULL DEFAULT '0',";
     sql += "fangHao int(32) unsigned NOT NULL DEFAULT '0',";

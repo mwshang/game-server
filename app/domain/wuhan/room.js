@@ -265,7 +265,7 @@ Instance.prototype.isNeedFangKa = function(msg,player,isCreate){
     }
     else if(msg.rounds==16)
     {
-        fangNum=16;
+        fangNum=14;
     }
     else
     {

@@ -184,6 +184,11 @@ pro.updatehuifangArrDao = function(curStatus){
 //结算数据,更新到DB中
 pro.updatehuifangAttDao = function(){
     if (this.roundsNum > 0){
+        // 2018.12.20 mwshang 增加底分结算规则
+        if (!this.huifangArrDao["baseScore"] || this.huifangArrDao["baseScore"] == 0) {
+            this.huifangArrDao["baseScore"] = this.baseScore;    
+        }        
+
         playerHuiFangDao.createHuiFangRecord(this.huifangArrDao, function(err, res){
             logger.debug("保存回放记录成功");
         });
