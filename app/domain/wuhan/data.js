@@ -370,13 +370,13 @@ pro.calGameResult = function(){
 //获取当前需要扣的钻石 flag:mwshang
 pro.getGemCount = function(){
     if(this.table.app.get("roomMgr").isNeedGem==0) return 0;
-    var fangNum = 6;
+    var fangNum = 8;
     if (this.roundsTotal <= 8){
-        fangNum = 6;
+        fangNum = 8;
     }else if (this.roundsTotal > 8 && this.roundsTotal <= 16){
-        fangNum = 12;
+        fangNum = 14;
     }else {
-        fangNum = 12 + Math.ceil((this.roundsTotal - 16)/4) * 4;
+        fangNum = 14 + Math.ceil((this.roundsTotal - 16)/4) * 4;
     }
     return fangNum;
 }

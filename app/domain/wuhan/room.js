@@ -303,7 +303,7 @@ Instance.prototype.getNeedFangKa = function (msg) {
     }
     else if(msg.rounds==16)
     {
-        fangNum=16;
+        fangNum=14;
     }
     else
     {
