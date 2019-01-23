@@ -227,7 +227,7 @@ playerDao.createUser = function (username, password, from, deviceID, nickName,he
 
     logger.debug("username:%j,password:%j,from:%j,deviceID:%j,nickName:%j,headUrl:%j,passwordRecord：%j,userSex:%j,osPlatform:%j,province%j,ctiy:%j,curVersion:%j",username, password, from, deviceID, nickName,headUrl,passwordRecord,userSex,osPlatform,province,city,curVersion)
 
-    var sql = 'insert into qp_player (deviceID,regType,userName,password,loginCount,nickName,headUrl,userSex,clientType,province,city,curVersion,gemNum) values(?,?,?,?,?,?,?,?,?,?,?,?,200)';
+    var sql = 'insert into qp_player (deviceID,regType,userName,password,loginCount,nickName,headUrl,userSex,clientType,province,city,curVersion,gemNum) values(?,?,?,?,?,?,?,?,?,?,?,?,100)';
     var args = [deviceID, from, username, password,1, nickName,headUrl,userSex,osPlatform,province,city,curVersion];
 
     pomelo.app.get('dbclient').query(sql,args,function(err, res) {

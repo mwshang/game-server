@@ -261,15 +261,15 @@ Instance.prototype.isNeedFangKa = function(msg,player,isCreate){
     }
     else if(msg.rounds==8)
     {
-        fangNum=8;
+        fangNum=12;
     }
     else if(msg.rounds==16)
     {
-        fangNum=14;
+        fangNum=20;
     }
     else
     {
-        fangNum=16;
+        fangNum=20;
     }
 
     if(msg.aaGem==1)
@@ -299,15 +299,15 @@ Instance.prototype.getNeedFangKa = function (msg) {
     }
     else if(msg.rounds==8)
     {
-        fangNum=8;
+        fangNum=12;
     }
     else if(msg.rounds==16)
     {
-        fangNum=14;
+        fangNum=20;
     }
     else
     {
-        fangNum=16;
+        fangNum=20;
     }
 
     return fangNum;
